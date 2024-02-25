@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "96a1346b8a831cef",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e546e9830281351",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4b083671a380974",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e55828b94119a45",
+    "type": "split",
+    "children": [
+      {
+        "id": "78a3f9fd6ca365f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8a87c2a09cf6cb1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e4ce59278cf55dae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Form",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bec962d34af5eb11",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.5
+  },
+  "right": {
+    "id": "f123078c67a67992",
+    "type": "split",
+    "children": [
+      {
+        "id": "be98ca2a37cd0478",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2b8665fe9c0c278",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3ada443602d37e0d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "76aae0b40e4657ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2a839f8b0b0b01ee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ab42ba5bc6525ee",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f4b083671a380974",
+  "lastOpenFiles": [
+    "Basis Data/PEMBELAJARAN 1.md",
+    "Pemrograman web/PEMBELAJARAN 5.md",
+    "Pemrograman web/PEMBELAJARAN 4.md",
+    "Basis Data/PEMBELAJARAN 4.md",
+    "Basis Data/GAMBARBASDAT/tidaksama.png",
+    "Basis Data/GAMBARBASDAT/besarsama.png",
+    "Basis Data/GAMBARBASDAT/kecilsama.png",
+    "Basis Data/GAMBARBASDAT/,=.png",
+    "Basis Data/GAMBARBASDAT/Screenshot (75).png",
+    "Basis Data/GAMBARBASDAT/notbetween.png",
+    "Pemrograman web/GAMBAR/bgcolor.png",
+    "Pemrograman web/GAMBAR/Screenshot (73).png",
+    "Pemrograman web/GAMBAR/color.png",
+    "Basis Data/GAMBARBASDAT/BETWEENAND.png",
+    "Basis Data/PEMBELAJARAN 3.md",
+    "Pemrograman web/PEMBELAJARAN  3.md",
+    "Pemrograman web/PEMBELAJARAN 2.md",
+    "Pemrograman web/PEMBELAJARAN 1.md",
+    "Pemrograman web/GAMBAR/PEMBELAJARNA.md",
+    "Basis Data/PEMBELAJARAN 4",
+    "Basis Data/PEMBELAJARAN 2.md",
+    "PEMBELAJARAN 3",
+    "Pemrograman web/ANATOMI ELEMEN HTML.md",
+    "data data obsidian/plugins/notion-like-tables/styles.css",
+    "data data obsidian/plugins/notion-like-tables/manifest.json",
+    "data data obsidian/plugins/notion-like-tables/main.js",
+    "data data obsidian/plugins/notion-like-tables/data.json",
+    "data data obsidian/plugins/table-editor-obsidian/data.json",
+    "data data obsidian/community-plugins.json",
+    "data data obsidian/themes/Spectrum/theme.css",
+    "data data obsidian/themes/Spectrum/manifest.json",
+    "2024-01-28.md",
+    "Untitled.canvas",
+    "GAMBAR.md"
+  ]
+}
