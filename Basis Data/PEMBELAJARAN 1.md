@@ -207,6 +207,7 @@ SELECT nama_depan from pelanggan where ID=104;
 ```
 
 ![GAMBAR](GAMBARBASDAT/where.png)
+
 ANALISA:
 -  `SELECT` perintah untuk menampilkan data.
 - `nama_depan` adalah salah satu nama kolom pada tabel.
@@ -279,6 +280,7 @@ DROP TABLE pelanggan;
 ANALISA:
 - `DROP TABLE` adalah perintah untuk menghapus.
 - `pelanggan` adalah sebuah nama tabel.
+  
 KESIMPULAN:
 - DROP TABLE pelanggan; adalah sebuah perintah untuk menghapus sebuah tabel yang bernamakan **pelanggan**.
 # SELECT LANJUTAN 
@@ -299,7 +301,7 @@ CONTOH:
 ```
 
 
-![GAMBAR](GAMBARBASDAT/OR.PNG)
+![GAMBAR](GAMBARBASDAT/OR.png)
 
 ##  BETWEEN- AND
 select between-and ini akan menampilkan data antara "nilai1" dan "nilai2".karena didukung dengan AND.
