@@ -5,7 +5,7 @@ jika dibahasakan,basis adalah tempat atau wadah yang mempunyai aturan tertentu,d
 # Peranan Basis Data
 ==Perananan basis data sangat penting dalam pengolahan data,agar terstruktur==.
 contoh yang bisa saya ambil di tempat *PKL* saya yaitu **PDAM** kota makassar,terdapat ruang server yang berisi **Data** identitas konsumen dari *Nama*,*Alamat*,dan *informasi* yang berhubungan antara **PDAM** dengan konsumen di seluruh kota makassar.
-m 
+
 # Struktur Basis Data
 
 Basis data di ibaratkan sebuah tabung yang didalamnya dapat mengolah sebuah file file dan juga tabel.pada gambar berikut terdapat ilustrasi dari basis data tersebut.
