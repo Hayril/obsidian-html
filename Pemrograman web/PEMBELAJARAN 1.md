@@ -501,7 +501,7 @@ HASIL PROGRAM:
 ```
 
 HASIL PROGRAM:
-![GAMBAR](GAMBAR/LABEL.PNG)
+![GAMBAR](GAMBAR/LABEL.png)
 # SELECT
 - Elemen `<select>` berguna dalam mendefinisikan sebuah tombol ==dropdown== yang dimana user dapat memilih salah satu dari banyak pilihan. 
 - `<aside>` Elemen `<select>` nantinya berperan sebagai kontainer atau pembungkus dari elemen `<option>` yang berperan sebagai daftar pilihan atau opsi `</aside>`
@@ -541,7 +541,7 @@ HASIL PROGRAM:
 ```
 
 HASIL PROGRAM:
-![GAMBAR](GAMBAR/SELECT.PNG)
+![GAMBAR](GAMBAR/SELECT.png)
 # TEXT AREA
 - Elemen `<textarea>` berguna untuk mengambil inputan user berupa teks yang dapat memuat lebih dari satu baris. Jika dibandingkan dengan elemen `<input>` teks biasa, elemen `<textarea>` memiliki ukuran tinggi yang lebih besar. Element textarea bisa diisi lebih dari satu baris dengan menekan enter. Atribut yang dapat digunakan untuk mengatur kuran dari textarea yaitu rows untuk jumlah baris, sedangkan atribut cols untuk lebarnya.
 ```html
@@ -565,7 +565,7 @@ HASIL PROGRAM:
 ```
 
 HASIL PROGRAM:
-![GAMBAR](GAMBAR/TEXTAREA.PNG)
+![GAMBAR](GAMBAR/TEXTAREA.png)
 # BUTTON
 - Elemen `<button>` yang berada di dalam sebuah form akan otomatis dianggap sama fungsinya seperti `<input type="submit">`. Jika ingin membuat tombol biasa yang tidak men-submit `<form>` dapat dilakukan dengan menambahkan `atribut type="button"`.
 - Beberapa atribut yang digunakan pada contoh di atas yang perlu untuk diperjelas yaitu sebagai berikut:
@@ -593,7 +593,7 @@ HASIL PROGRAM:
 ```
 
 HASIL PROGRAM:
-![GAMBAR](GAMBAR/BUTTON.PNG)
+![GAMBAR](GAMBAR/BUTTON.png)
 
 # PENGENALAN CSS
 
@@ -628,11 +628,11 @@ HASIL PROGRAM:
 ### Before
 ![GAMBAR](GAMBAR/before1.png)
 ### After
-![GAMBAR](GAMBAR/COLOR.PNG)
+![GAMBAR](GAMBAR/COLOR.png)
 ## Background-color
 ==**BACKGROUND - COLOR**== berfungsi sebagai perintah untuk membuat latar belakang tulisan menjadi berwarna,seperti pada contoh berikut menggunakan perintah untuk mengubah latar belakang tulisan.
 ### Before
-![GAMBAR](GAMBAR/COLOR.PNG)
+![GAMBAR](GAMBAR/COLOR.png)
 ### After
 ![GAMBAR](GAMBAR/bgcolor.png)
 
