@@ -24,7 +24,7 @@ Ibarat manusia,==HTML bagaikan tulang yang mengatur setiap bagian tubuh web site
 # CSS
 **CSS** (Cascading Style Sheets) dibuat tahun *1994* bertujuan untuk styling web,dapat membuat web terlihat lebih menarik.pengguna,styling juga dapat dilakukan di **HTML** namun dapat membuat halaman kerja menjadi berantakan, sehingga programmer melakukan styling di **CSS**.
 
-![RUMAH](IMG(5).jpeg)
+![RUMAH](GAMBAR/IMG(5).jpeg)
 
 > [! INFO ]-
 > Gambar diatas adalah ilustrasi yang menjelaskan perbedaan antara *HTML*,*CSS*, dan *JAVASCRIPT*
