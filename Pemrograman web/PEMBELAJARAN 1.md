@@ -214,20 +214,20 @@ List jika diartikan kedalam bahasa indonesia berarti **daftar**, jadi ==list ada
 1. LIST TERURUT 
 ==LIST terurut adalah daftar data yang berurutan saat dibaca,list tersebut menggunakan angka agar pebaca tau harus membaca daftar tersebut darimana.==pada program **HTML** juga terdapat list,list tersebut harus dimulai dengan tag `<ol>`lalu diakhiri dengan akhiran `</ol>`,kemudian di dalamnya terdapat tag `<li>` dengan berakhiran tag `</li>`. 
 contoh program:
-![GAMBAR](IMG10.png)
+![GAMBAR](GAMBAR/IMG10.png)
 HASIL PROGRAM:
-![GAMBAR](IMG(1).png)
+![GAMBAR](GAMBAR/IMG(1).png)
 
 2. LIST TIDAK TERURUT 
 ==LIST tidak terurut adalah daftar data yang tidak berurutan saat dibaca,karena list tersebut menggunakan simbol dan membuat pembaca tidak tau harus membaca daftar tersebut darimana.==pada program **HTML** juga terdapat list,list tidak berurutan tersebut harus dimulai dengan tag `<ul>`lalu diakhiri dengan akhiran `</ul>`,kemudian di dalamnya terdapat tag `<li>` dengan berakhiran tag `</li>`. 
 CONTOH PROGRAM:
-![GAMBAR](IMG(4).png)
+![GAMBAR](GAMBAR/IMG(4).png)
 HASIL PROGRAM:
-![GAMBAR](IMG2.png)
+![GAMBAR](GAMBAR/IMG2.png)
 # KOMENTAR:
 ==komentar adalah suatu penjelasan baris atau bahkan kata yang biasanya dlampirkan pada suatu project==.pada program **HTML** terdapat juga komentar yang gunanya juga sama pada komentar pada umumnya,komentar yang digunakan untuk program **HTML** hanya berfungsi untuk memberi keterangan pada program.
 
-![GAMBAR](IMG9.png)
+![GAMBAR](GAMBAR/IMG9.png)
 >[!INFO]-
 > program yang diblock adalah sebuah contoh penulisan komentar
 
@@ -238,14 +238,14 @@ pada program html juga bisa menambahkan gambar,agar web site dapat terlihat lebi
 
 Penambahan gambar pada *HTML* menggunakan tag `<img>` dimulai dengan tag `<img>` dengan adanya tag `<img>` lalu dilanjutkan dengan tag `src` yang berperan sebagai *nama atribut* dan `"paraikatte.jpg"` sebagai *nilai atribut* dari pemaggilan gambar, dan `width dan height` adalah sebagai *pengatur ukuran dari gambar yang ditambahkan*
 
-![gambar](IMG(6).png)
+![gambar](GAMBAR/IMG(6).png)
 
 sebelum memasukkan gambar pada program yang dijalankan pada text editor,masukkan dahulu gambar pada folder text editor,agar mudah dipanggil saat memasukkan program.
 
-![gambar](IMG(8).png)
+![gambar](GAMBAR/IMG(8).png)
 HASIL PROGRAM:
 
-![GAMBAR](IMG(7).png)
+![GAMBAR](GAMBAR/IMG(7).png)
 
 ## VIDIO:
 sama seperti penambahan gambar,penambahan video dalam *HTML* juga dimulai dengan tag `<video>` dengan adanya tag `<video>` lalu dilanjutkan dengan tag `src` yang berperan sebagai *nama atribut* dan `"TEAICOTO.mp4"` sebagai *nilai atribut* dari pemaggilan video, dan `width dan height` adalah sebagai pengatur ukuran dari video yang ditambahkan.
@@ -262,7 +262,7 @@ sama seperti penambahan gambar,penambahan video dalam *HTML* juga dimulai dengan
 </html>
 ```
   HASIL PROGRAM:
-  ![GAMBAR](IMG(10).png)
+  ![GAMBAR](GAMBAR/IMG(10).png)
   
 ## AUDIO:
 Dalam *HTML* ada juga tag untuk menambahkan *AUDIO* kedalam web site yang telah dibuat,dengan dimulai dengan tag `<audio>` lalu dilanjutkan dengan tag `src` yang berperan sebagai *nama atribut* dan `"GALAU.mp3"` sebagai *nilai atribut* dari pemaggilan *AUDIO*, dan `width dan height` adalah sebagai pengatur ukuran dari video yang ditambahkan.
@@ -279,7 +279,7 @@ Dalam *HTML* ada juga tag untuk menambahkan *AUDIO* kedalam web site yang telah 
 </html>
 ```
 HASIL PROGRAM:
-![GAMBAR](IMGa.png)
+![GAMBAR](GAMBAR/IMGa.png)
 ## IFRAME
 pada *HTML* terdapat juga tag `<iframe>` yag berfungsi sebagai tag untuk penambahan tampilan web lain yang bisa diselipkan ke dalam web site yang kita buat tag `<iframe>` fungsinya sama dengan tag penambahan media lainnya. yang dimulai dengan tag `<iframe>` lalu dilanjutkan dengan tag `src` yang berperan sebagai *nama atribut* dan memasukkan link web yang ingin kita masukka seperti `"https://www.smkn7makassar.sch.id/"` sebagai *nilai atribut* dari pemanggilan tampilan web site, dan `width dan height` adalah sebagai pengatur ukuran dari tampilan web site yang ditambahkan.
 
@@ -300,7 +300,7 @@ CONTOH PROGRAM:
 ```
 
 HASIL PROGRAM:
-![GAMBAR](IMGb.png)
+![GAMBAR](GAMBAR/IMGb.png)
 # TABEL 
 pada *HTML* kita juga dapat membuat sebuah tabel,tabel tersebut berfungsi memberikan rangkuman data secara tersusun.
 - Tabel dalam HTML didefinisikan dengan tag `<table>
@@ -348,7 +348,7 @@ pada *HTML* kita juga dapat membuat sebuah tabel,tabel tersebut berfungsi member
    ```
 
 HASIL PROGRAM:
-![GAMBAR|500](IMGc.png)
+![GAMBAR|500](GAMBAR/IMGc.png)
 
 # FORM
 
