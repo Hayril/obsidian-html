@@ -11,11 +11,28 @@
             "id": "f4b083671a380974",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Basis Data/PEMBELAJARAN 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5eec7c3c8cb055a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis Data/PEMBELAJARAN 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 200
   },
   "right": {
     "id": "f123078c67a67992",
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Basis Data/PEMBELAJARAN 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Basis Data/PEMBELAJARAN 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Basis Data/PEMBELAJARAN 1.md"
+              }
             }
           },
           {
@@ -134,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,12 +167,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4b083671a380974",
+  "active": "5eec7c3c8cb055a0",
   "lastOpenFiles": [
+    "Basis Data/PEMBELAJARAN 3.md",
+    "Basis Data/PEMBELAJARAN 2.md",
     "Basis Data/PEMBELAJARAN 1.md",
+    "Basis Data/PEMBELAJARAN 4.md",
+    "Pemrograman web/PEMBELAJARAN 1.md",
     "Pemrograman web/PEMBELAJARAN 5.md",
     "Pemrograman web/PEMBELAJARAN 4.md",
-    "Basis Data/PEMBELAJARAN 4.md",
+    "Pemrograman web/PEMBELAJARAN  3.md",
+    "Pemrograman web/PEMBELAJARAN 2.md",
+    "bash.exe.stackdump",
     "Basis Data/GAMBARBASDAT/tidaksama.png",
     "Basis Data/GAMBARBASDAT/besarsama.png",
     "Basis Data/GAMBARBASDAT/kecilsama.png",
@@ -163,13 +189,8 @@
     "Pemrograman web/GAMBAR/Screenshot (73).png",
     "Pemrograman web/GAMBAR/color.png",
     "Basis Data/GAMBARBASDAT/BETWEENAND.png",
-    "Basis Data/PEMBELAJARAN 3.md",
-    "Pemrograman web/PEMBELAJARAN  3.md",
-    "Pemrograman web/PEMBELAJARAN 2.md",
-    "Pemrograman web/PEMBELAJARAN 1.md",
     "Pemrograman web/GAMBAR/PEMBELAJARNA.md",
     "Basis Data/PEMBELAJARAN 4",
-    "Basis Data/PEMBELAJARAN 2.md",
     "PEMBELAJARAN 3",
     "Pemrograman web/ANATOMI ELEMEN HTML.md",
     "data data obsidian/plugins/notion-like-tables/styles.css",
@@ -179,7 +200,6 @@
     "data data obsidian/plugins/table-editor-obsidian/data.json",
     "data data obsidian/community-plugins.json",
     "data data obsidian/themes/Spectrum/theme.css",
-    "data data obsidian/themes/Spectrum/manifest.json",
     "2024-01-28.md",
     "Untitled.canvas",
     "GAMBAR.md"
