@@ -35,7 +35,7 @@ Berikut adalah cara membuat data base:
 3.kemudian klik shell.
 ![GAMBAR BASIS DATA](GAMBARBASDAT/AWAL.png)
 berikut adalah tampilan sheel yang harus dimasuki
-![gambar](GAMBARBASAT/shel.png)
+![gambar](GAMBARBASDAT/shel.png)
 4.ketik `xampp-setup-storage`.lalu klik `allow` agar xampp dapat mengakses penyimpanan ke file explorer pada laptop.
 5.saat masuk kedalam admin  ketik `mysql -u root -p` untuk masuk kedalam user databases.
 6.kemudian kita akan disuruh memasukkan password,klik enter jika tidak mempunyai password.
