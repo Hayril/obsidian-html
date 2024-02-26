@@ -9,8 +9,6 @@ m
 # Struktur Basis Data
 
 Basis data di ibaratkan sebuah tabung yang didalamnya dapat mengolah sebuah file file dan juga tabel.pada gambar berikut terdapat ilustrasi dari basis data tersebut.
-
-![Basis data](GAMBARBASDAT/basisdata.png)
 Dalam basis data terdapat juga yang dinamakan tabel,pada gambar di atas telah ditampilkan gambar tabel beserta struktur-struktur nya.
 
 ## PENJELASAN
