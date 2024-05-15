@@ -270,6 +270,7 @@ CONTOH:
 HASIL:
 ![GAMBAR](GAMBARBASDAT/INOR.PNG)
 
+
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
