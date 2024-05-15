@@ -1,4 +1,5 @@
 
+
 # CARA PEMANGGILAN CSS
 
 CSS adalah bahasa pemrograman yang digunakan untuk mengatur tampilan dan gaya dari elemen-elemen HTML pada halaman web. Dengan CSS, Anda dapat mengontrol warna, ukuran, jenis huruf, posisi, dan banyak lagi atribut-atribut lainnya dari elemen-elemen HTML.
@@ -1908,7 +1909,7 @@ Pastikan situs Anda berfungsi dengan baik di berbagai browser, termasuk versi la
 # Pengenalan Responsive Web Design
 Responsive web design atau desain web responsif adalah sebuah teknik atau metode bagi web designer untuk membuat suatu layout website yang dapat menyesuaikan diri sesuai dengan ukuran layar pengguna. Baik dari ukuran huruf, user interface, gambar dan tata letak akan menyesuaikan dengan lebar layar dan resolusi device yang digunakan. 
 Selain dapat memengaruhi apa yang ditampilkan pada perangkat tertentu, ini juga untuk meningkatkan kenyamanan pengguna dalam mengunjungi suatu website.
-![100%](assetsresponsive/responsive-1.png)
+![100%](responsive-1.png)
 # Mengapa perlu CSS Responsive?
 Pernahkah Anda mengunjungi situs web di smartphone Anda dan halaman webnya berantakan atau teksnya terlalu kecil untuk dibaca? Ini artinya situs web tersebut belum responsif. Dengan memakai css responsif maka web kita memungkinkan tampil optimal di berbagai perangkat, mulai dari desktop, laptop, tablet, hingga smartphone. Berikut alasan beberapa alasan mengapa css responsif penting: 
 - **Tampilan yang Bagus di Semua Perangkat**
@@ -1974,9 +1975,9 @@ Saat mendesain website, mulailah dengan mempertimbangkan tampilan website pada p
 
 # Implementasi CSS Responsif
 ## Sebelum Responsif
-![](assetsresponsive/res-2.png)
+![](res-2.png)
 ## Sesudah Responsif
-![](assetsresponsive/res-3.png)
+![](res-3.png)
 ## Kode
 ### HTML
 ```html
@@ -2144,4 +2145,3 @@ footer {
     - `width: 100%;`: Memberikan lebar sebesar 100% dari parent element, sehingga elemen akan mengisi lebar penuh.
 - `aside`: Mengatur tampilan untuk elemen "aside" ketika media query aktif.
     - `width: 100%;`: Memberikan lebar sebesar 100% dari parent element, sehingga elemen "aside" akan mengisi lebar penuh.
->>>>>>> ee071702750ec47590cf4b1a41d75c0b27141053
