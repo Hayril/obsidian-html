@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman web/PENGUMPULAN 2.md",
+                "file": "bootstrap/BOTSTRAP.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pemrograman web/PENGUMPULAN 2.md",
+                "file": "bootstrap/BOTSTRAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pemrograman web/PENGUMPULAN 2.md",
+                "file": "bootstrap/BOTSTRAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pemrograman web/PENGUMPULAN 2.md"
+                "file": "bootstrap/BOTSTRAP.md"
               }
             }
           }
@@ -185,17 +185,19 @@
   },
   "active": "f242f44d82a742e4",
   "lastOpenFiles": [
-    "bootstrap/assets boostrap/laravel-7.png",
-    "bootstrap/assets boostrap/btc-95.png",
-    "bootstrap/assets boostrap/btc-94.png",
-    "bootstrap/assets boostrap/btc-56.png",
-    "bootstrap/assets boostrap/btc-93.png",
-    "bootstrap/assets boostrap/btc-92.png",
-    "bootstrap/assets boostrap/btc-91.png",
-    "bootstrap/assets boostrap/btc-90.png",
-    "bootstrap/assets boostrap/btc-9.png",
-    "bootstrap/assets boostrap/btc-89.png",
-    "bootstrap/assets boostrap/btc-88.png",
+    "bootstrap/assets/btc-20.png",
+    "bootstrap/assets/btc-40.png",
+    "bootstrap/assets/btc-77.png",
+    "bootstrap/assets/laravel-7.png",
+    "bootstrap/assets/btc-95.png",
+    "bootstrap/assets/btc-94.png",
+    "bootstrap/assets/btc-93.png",
+    "bootstrap/assets/btc-92.png",
+    "bootstrap/assets/btc-91.png",
+    "bootstrap/assets/btc-90.png",
+    "bootstrap/assets/btc-9.png",
+    "bootstrap/assets",
+    "Pemrograman web/PENGUMPULAN 2.md",
     "bootstrap/assets boostrap",
     "bootstrap/BOTSTRAP.md",
     "bootstrap",
@@ -212,11 +214,9 @@
     "Pemrograman web/RESPONSIVEUntitled.md",
     "responsive",
     "assetsresponsive/RESPONSIVEUntitled.md",
-    "Pemrograman web/PENGUMPULAN 2.md",
     "BOOTSTRAP",
     "Pemrograman web/PENGUMPULAN 1.md",
     "Basis Data/PENGUMPULAN 2.md",
-    "Basis Data/GAMBARBASDAT",
     "Basis Data/Select Lanjutan.md",
     "Basis Data/PENGUMPULAN 1.md",
     "OBSIDIAN ASEK/Pemrograman web/PEMBELAJARAN 6.md",
