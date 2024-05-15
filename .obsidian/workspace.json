@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/PENGUMPULAN 2.md",
+                "file": "Pemrograman web/PENGUMPULAN 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f242f44d82a742e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pemrograman web/PENGUMPULAN 2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basis Data/PENGUMPULAN 2.md",
+                "file": "Pemrograman web/PENGUMPULAN 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basis Data/PENGUMPULAN 2.md",
+                "file": "Pemrograman web/PENGUMPULAN 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basis Data/PENGUMPULAN 2.md"
+                "file": "Pemrograman web/PENGUMPULAN 2.md"
               }
             }
           }
@@ -171,34 +183,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3fe9c77b319c1b6",
+  "active": "f242f44d82a742e4",
   "lastOpenFiles": [
-    "Basis Data/GAMBARBASDAT/where.png",
-    "Basis Data/GAMBARBASDAT/use.png",
-    "Basis Data/GAMBARBASDAT/updatealter.png",
-    "Basis Data/GAMBARBASDAT/update.png",
-    "Basis Data/GAMBARBASDAT/tidaksama.png",
-    "Basis Data/GAMBARBASDAT/tantanganvirtual2.png",
-    "Basis Data/GAMBARBASDAT/tantanganvirtual1.png",
-    "Basis Data/GAMBARBASDAT/tantangan.png",
-    "Basis Data/GAMBARBASDAT/table.png",
-    "Basis Data/GAMBARBASDAT/TABELVIRTUAL.png",
-    "Basis Data/GAMBARBASDAT/SUM.png",
+    "bootstrap/assets boostrap/laravel-7.png",
+    "bootstrap/assets boostrap/btc-95.png",
+    "bootstrap/assets boostrap/btc-94.png",
+    "bootstrap/assets boostrap/btc-56.png",
+    "bootstrap/assets boostrap/btc-93.png",
+    "bootstrap/assets boostrap/btc-92.png",
+    "bootstrap/assets boostrap/btc-91.png",
+    "bootstrap/assets boostrap/btc-90.png",
+    "bootstrap/assets boostrap/btc-9.png",
+    "bootstrap/assets boostrap/btc-89.png",
+    "bootstrap/assets boostrap/btc-88.png",
+    "bootstrap/assets boostrap",
+    "bootstrap/BOTSTRAP.md",
+    "bootstrap",
+    "bootst",
+    "New folder",
+    "BOTSTRAP.md",
+    "Pemrograman web/assets boostrap/BOTSTRAP.md",
+    "assets boostrap/BOTSTRAP.md",
+    "assets boostrap",
+    "responsive/assetsresponsive",
+    "responsive/New folder",
+    "responsive/RESPONSIVEUntitled.md",
+    "RESPONSIVEUntitled.md",
+    "Pemrograman web/RESPONSIVEUntitled.md",
+    "responsive",
+    "assetsresponsive/RESPONSIVEUntitled.md",
+    "Pemrograman web/PENGUMPULAN 2.md",
+    "BOOTSTRAP",
+    "Pemrograman web/PENGUMPULAN 1.md",
+    "Basis Data/PENGUMPULAN 2.md",
     "Basis Data/GAMBARBASDAT",
     "Basis Data/Select Lanjutan.md",
-    "Basis Data/PENGUMPULAN 2.md",
     "Basis Data/PENGUMPULAN 1.md",
-    "Pemrograman web/PENGUMPULAN 1.md",
-    "Pemrograman web/PENGUMPULAN 2.md",
-    "Pemrograman web/assets boostrap",
-    "Pemrograman web/GAMBAR",
-    "Pemrograman web/assetsresponsive",
-    "Pemrograman web/asettantangan",
-    "OBSIDIAN ASEK/data data obsidian/themes/Spectrum/theme.css",
-    "OBSIDIAN ASEK/data data obsidian/themes/Spectrum/manifest.json",
-    "OBSIDIAN ASEK/data data obsidian/themes/PLN/theme.css",
-    "OBSIDIAN ASEK/data data obsidian/themes/PLN/manifest.json",
-    "OBSIDIAN ASEK/data data obsidian/plugins/table-editor-obsidian/styles.css",
     "OBSIDIAN ASEK/Pemrograman web/PEMBELAJARAN 6.md",
     "OBSIDIAN ASEK/Pemrograman web/PEMBELAJARAN 5.md",
     "OBSIDIAN ASEK/Pemrograman web/PEMBELAJARAN 4.md",
