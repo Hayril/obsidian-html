@@ -892,7 +892,7 @@ if ($insert) {
 ```
 
 ## Hasil 
-![GAMBAR](tambahkandb.png)
+![GAMBAR](GambarDB/tambahkandb.png)
 
 ## Analisis
 
