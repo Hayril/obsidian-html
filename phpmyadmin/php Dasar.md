@@ -153,7 +153,7 @@ if ($a >= $b) {
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/PERBANDINGAN.PNG)
+![GAMBAR](GAMBARPHP/perbandingan.PNG)
 ANALISIS:
 1. **Operator Perbandingan == (sama dengan)**:
     - Program mengecek apakah nilai $a sama dengan nilai $b.
@@ -218,7 +218,7 @@ echo "<br>";
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/LOGIKA.PNG)
+![GAMBAR](GAMBARPHP/logika.PNG)
 ANALISIS:
 1. Operator logika AND (&&): Dalam blok kode ini, kita menggunakan operator logika AND untuk mengecek apakah kedua variabel, `$fachri` dan `$hayril`, memiliki nilai true. Namun, variabel `$hayril` memiliki nilai false, sehingga ekspresi kondisionalnya tidak akan dievaluasi menjadi true. Akibatnya, program akan mencetak pesan "ada yang tidak tinggal di jl.singa."
 2. Operator logika OR (||): Pada blok kode ini, kita menggunakan operator logika OR untuk mengecek apakah salah satu atau kedua variabel memiliki nilai true. Karena `$fachri` memiliki nilai true, maka ekspresi kondisionalnya akan dievaluasi menjadi true. Sehingga, program akan mencetak pesan "mereka nongkrong di jl.singa."
@@ -247,7 +247,7 @@ echo "asikk naik kelas."; } ?>
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/IF.PNG)
+![GAMBAR](GAMBARPHP/if.PNG)
 ANALISIS:
 1. Deklarasi variabel: `$standarnilai` diberi nilai 80.
 2. Percabangan: Program menggunakan struktur percabangan if untuk mengevaluasi apakah `$standarnilai` lebih besar dari atau sama dengan 70.
@@ -277,7 +277,7 @@ if ($umur >= 18) {
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/IFELSE.PNG)
+![GAMBAR](GAMBARPHP/ifelse.PNG)
 ANALISIS:
 1. Variabel `$umur` diberi nilai 18.
 2. Program menggunakan  if else untuk mengevaluasi apakah nilai `$umur` lebih besar dari atau sama dengan 18.
@@ -310,7 +310,7 @@ if ($nilai >= 80) {
 }
 ```
 HASIL:
-![GAMBAR](GAMBARPHP/IFELSE2.PNG)
+![GAMBAR](GAMBARPHP/ifelse2.PNG)
 ANALISIS:
 1. Variabel `$nilai` diberi nilai 75.
 2. Program menggunakan struktur if else if else untuk mengevaluasi nilai dari variabel `$nilai`.
@@ -360,7 +360,7 @@ switch ($hari) {
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/SWITCHCASE.PNG)
+![GAMBAR](GAMBARPHP/switchcase.PNG)
 ANALISIS:
 1. Struktur kontrol `switch` digunakan untuk mengevaluasi nilai dari ekspresi  (`$hari` ).
 2. Setelah ekspresi dievaluasi, program akan mencocokkan nilai ekspresi dengan nilai-nilai yang terdaftar dalam kasus-kasus.
