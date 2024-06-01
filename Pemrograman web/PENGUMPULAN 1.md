@@ -104,7 +104,7 @@ DESKRIPSI:
 
  Hasil program
 
-![asek](IMG8.png)
+![assets](IMG8.png)
 
 > [!INFO]-
 > Gambar dibawah ini adalah hasil jika mengklik link tersebut
