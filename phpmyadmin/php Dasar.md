@@ -660,7 +660,7 @@ PROGRAM FROM GET:
 ```
 
 HASIL FORM GET:
-![GAMBAR](GAMBARBASDAT/formget.png)
+![GAMBAR](GAMBARPHP/formget.png)
 
 ANALISA:
 - (`<input type="text" name="nama" placeholder="Masukkan nama">`) adalah sebuah program untuk memasukkan sebuah inputan berupa text untuk menginput nama.
@@ -696,7 +696,7 @@ $umur = $_GET["umur"];
 ```
 
 HASIL PROSES GET:
-![gambar](GAMBARBASDAT/prosesget.png)
+![GAMBAR](GAMBARPHP/prosesget.png)
 
 ANALISA:
 - `$nama`  `$umur` sebagai variabel , program ini mengambil data "nama" dan "umur"  yang dikirimkan melalui URL sebagai bagian dari query string dan menyimpan nya kedalam variabel nama dan umur.
@@ -729,7 +729,7 @@ PROGRAM FORM POSH:
 ```
 
 HASIL FROM POSH:
-![gambar](GAMBARBASDAT/formposh.png)
+![gambar](GAMBARPHP/formposh.png)
 
 ANALISA:
 - `<form action="proses_posh.php" method="POST">`: Ini adalah tag pembuka untuk formulir. Atribut `action` menentukan lokasi file PHP yang akan menerima data dari formulir ini. Metode `POST` menentukan cara pengiriman data.
