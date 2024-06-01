@@ -104,12 +104,12 @@ DESKRIPSI:
 
  Hasil program
 
-![assets](IMG8.png)
+![Gambar](assets/IMG8.png)
 
 > [!INFO]-
 > Gambar dibawah ini adalah hasil jika mengklik link tersebut
 
-![asek](IMG7.png) 
+![asek](assets/IMG7.png) 
 
 # HEADING:
 `<h>` adalah tag yang digunakan untuk menunjukkan sebuah bagian penting pada halaman website dan memiliki enam tingkatan yang berurutan yaitu `<h1>` hingga `<h6>`,dimana semakin tinggi angka pada tag heading maka semakin kecil ukuran heading.
