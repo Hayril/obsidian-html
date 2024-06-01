@@ -9,11 +9,11 @@ untuk penggunaan awal PHP kita harus mengikuti langkah langkah berikut.
 2) Masuk ke directory C.
    ![Gambar](GAMBARPHP/phpmysql2.png)
 3) Buka folder XAMPP lalu buka folder Htdocs.![GAMBAR](GAMBARPHP/phpmysql2.png)
-4) ![Gambar](gambarphp/phpmysql3.png)
-5)  Buat folder dengan nama yang anda inginkan.![Gambar](gambarphp/phpmysql4.png)
-6) Kemudian Masuk ke VSCode lalu klik "Open Folder" dan pilih folder yang telah anda buat.![Gambar](gambarphp/phpmysql5.png)
+4) ![Gambar](GAMBARPHP/phpmysql3.png)
+5)  Buat folder dengan nama yang anda inginkan.![Gambar](GAMBARPHP/phpmysql4.png)
+6) Kemudian Masuk ke VSCode lalu klik "Open Folder" dan pilih folder yang telah anda buat.![Gambar](GAMBARPHP/phpmysql5.png)
 7) Buat Dokumen dengan ekstensi "php".
-![Gambar](gambarphp/phpmysql6.png)
+![Gambar](GAMBARPHP/phpmysql6.png)
 
 8) Anda telah dapat membuat kode program PHP sesuai dengan keinginan anda.
 ## Echo & Komentar 
@@ -88,7 +88,7 @@ $hasilBagi = $uangfachri / $uanghayril;
 echo "Pembagian uang fachri dan hayril: $uangfachri / $uanghayril = $hasilBagi <br>";
 ```
 HASIL:
-![GAMBAR](GAMBARPHP/ARITMATIKA.PNG)
+![GAMBAR](GAMBARPHP/aritmatika.png)
 ANALISIS:
 1. **Inisialisasi Variabel**: Variabel `$uangfachri` dan `$uanghayril` diinisialisasi dengan nilai masing-masing 10 dan 5.
 2. **Penambahan**: Dilakukan penambahan antara nilai `$uangfachri` dan `$uanghayril`. Hasilnya disimpan dalam variabel `$hasilTambah` dan dicetak ke layar menggunakan echo.
@@ -153,7 +153,7 @@ if ($a >= $b) {
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/PERBANDINGAN.PNG)
+![GAMBAR](GAMBARPHP/perbandingan.png)
 ANALISIS:
 1. **Operator Perbandingan == (sama dengan)**:
     - Program mengecek apakah nilai $a sama dengan nilai $b.
@@ -218,7 +218,7 @@ echo "<br>";
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/LOGIKA.PNG)
+![GAMBAR](GAMBARPHP/logika.png)
 ANALISIS:
 1. Operator logika AND (&&): Dalam blok kode ini, kita menggunakan operator logika AND untuk mengecek apakah kedua variabel, `$fachri` dan `$hayril`, memiliki nilai true. Namun, variabel `$hayril` memiliki nilai false, sehingga ekspresi kondisionalnya tidak akan dievaluasi menjadi true. Akibatnya, program akan mencetak pesan "ada yang tidak tinggal di jl.singa."
 2. Operator logika OR (||): Pada blok kode ini, kita menggunakan operator logika OR untuk mengecek apakah salah satu atau kedua variabel memiliki nilai true. Karena `$fachri` memiliki nilai true, maka ekspresi kondisionalnya akan dievaluasi menjadi true. Sehingga, program akan mencetak pesan "mereka nongkrong di jl.singa."
@@ -247,7 +247,7 @@ echo "asikk naik kelas."; } ?>
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/IF.PNG)
+![GAMBAR](GAMBARPHP/if.png)
 ANALISIS:
 1. Deklarasi variabel: `$standarnilai` diberi nilai 80.
 2. Percabangan: Program menggunakan struktur percabangan if untuk mengevaluasi apakah `$standarnilai` lebih besar dari atau sama dengan 70.
@@ -277,7 +277,7 @@ if ($umur >= 18) {
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/IFELSE.PNG)
+![GAMBAR](GAMBARPHP/ifelse.png)
 ANALISIS:
 1. Variabel `$umur` diberi nilai 18.
 2. Program menggunakan  if else untuk mengevaluasi apakah nilai `$umur` lebih besar dari atau sama dengan 18.
@@ -310,7 +310,7 @@ if ($nilai >= 80) {
 }
 ```
 HASIL:
-![GAMBAR](GAMBARPHP/IFELSE2.PNG)
+![GAMBAR](GAMBARPHP/ifelse2.png)
 ANALISIS:
 1. Variabel `$nilai` diberi nilai 75.
 2. Program menggunakan struktur if else if else untuk mengevaluasi nilai dari variabel `$nilai`.
@@ -360,7 +360,7 @@ switch ($hari) {
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/SWITCHCASE.PNG)
+![GAMBAR](GAMBARPHP/switchcase.png)
 ANALISIS:
 1. Struktur kontrol `switch` digunakan untuk mengevaluasi nilai dari ekspresi  (`$hari` ).
 2. Setelah ekspresi dievaluasi, program akan mencocokkan nilai ekspresi dengan nilai-nilai yang terdaftar dalam kasus-kasus.
@@ -504,7 +504,7 @@ for ($hayril = 1; $hayril <= 5; $hayril++) {
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/FOR.PNG)
+![GAMBAR](GAMBARPHP/for.png)
 ANALISIS:
 1. **Inisialisasi Variabel**: Pada awal loop, variabel `$hayril` diinisialisasi dengan nilai 1 (`$hayril = 1`).
 2. **Kondisi**: Kondisi loop (`$hayril <= 5`) diuji sebelum setiap iterasi. Jika kondisinya benar, iterasi dilanjutkan. Jika tidak, loop berakhir.
@@ -534,7 +534,7 @@ while ($hayril <= 10) {
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/WHILE.PNG)
+![GAMBAR](GAMBARPHP/while.png)
 ANALISIS:
 1. Langkah pertama adalah menginisialisasi variabel `$hayril` dengan nilai 1. Ini adalah langkah awal sebelum memasuki loop.
 2.  Setelah variabel diinisialisasi, kondisi dalam pernyataan `while` dievaluasi. Pada kasus ini, kondisinya adalah `$hayril <= 10`. Ini berarti loop akan terus berjalan selama nilai `$hayril` tidak melebihi 10.
@@ -561,7 +561,7 @@ do {
 } while ($hayril <= 10);
 ```
 HASIL:
-![GAMBAR](GAMBARPHP/DOWHILE.PNG)
+![GAMBAR](GAMBARPHP/dowhile.png)
 ANALISIS:
 1. **Inisialisasi variabel**: Langkah pertama adalah menginisialisasi variabel `$hayril` dengan nilai 1.
 2. **Eksekusi blok kode**: Blok kode di dalam `do` dieksekusi terlebih dahulu tanpa memeriksa kondisi. Dalam kasus ini, kode akan mencetak nilai dari variabel `$hayril` (dimulai dari 1) diikuti oleh spasi.
@@ -586,7 +586,7 @@ foreach ($colors as $color) {
 }
 ```
 HASIL:
-![GAMBAR](GAMBARPHP/FOREACH.PNG)
+![GAMBAR](GAMBARPHP/foreach.png)
 ANALISIS:
 1. **Inisialisasi Array**: Array `$colors` diinisialisasi dengan beberapa nilai warna.
 2. **Pengulangan dengan `foreach`**: Perulangan `foreach` digunakan untuk mengiterasi melalui setiap elemen dalam array `$colors`.
@@ -623,7 +623,7 @@ echo "Luas persegi panjang dengan panjang $panjang dan lebar $lebar adalah $luas
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/FUNCTIONPHP.PNG)
+![GAMBAR](GAMBARPHP/functionphp.png)
 
 ANALISIS:
 - Fungsi `hitungLuasPersegiPanjang` didefinisikan dengan dua parameter: `$panjang` dan `$lebar`.
@@ -660,7 +660,7 @@ PROGRAM FROM GET:
 ```
 
 HASIL FORM GET:
-![GAMBAR](formget.png)
+![GAMBAR](GAMBARPHP/formget.png)
 
 ANALISA:
 - (`<input type="text" name="nama" placeholder="Masukkan nama">`) adalah sebuah program untuk memasukkan sebuah inputan berupa text untuk menginput nama.
@@ -696,7 +696,7 @@ $umur = $_GET["umur"];
 ```
 
 HASIL PROSES GET:
-![gambar](gambarphp/prosesget.png)
+![GAMBAR](GAMBARPHP/prosesget.png)
 
 ANALISA:
 - `$nama`  `$umur` sebagai variabel , program ini mengambil data "nama" dan "umur"  yang dikirimkan melalui URL sebagai bagian dari query string dan menyimpan nya kedalam variabel nama dan umur.
@@ -729,7 +729,7 @@ PROGRAM FORM POSH:
 ```
 
 HASIL FROM POSH:
-![gambar](formposh.png)
+![gambar](GAMBARPHP/formposh.png)
 
 ANALISA:
 - `<form action="proses_posh.php" method="POST">`: Ini adalah tag pembuka untuk formulir. Atribut `action` menentukan lokasi file PHP yang akan menerima data dari formulir ini. Metode `POST` menentukan cara pengiriman data.
@@ -791,7 +791,7 @@ if ($koneksi) {
 ```
 
 ## Hasil
-![gambar](koneksidb.png)
+![gambar](GambarDB/koneksidb.png)
 
 ## Analisis
 
@@ -838,7 +838,7 @@ foreach($select as $key => $data){
 ```
 
 ## Hasil
-![GAMBAR](tampilkandb.png)
+![GAMBAR](GambarDB/tampilkandb.png)
 
 ## Analisis
 
@@ -892,7 +892,7 @@ if ($insert) {
 ```
 
 ## Hasil 
-![GAMBAR](tambahkandb.png)
+![GAMBAR](GambarDB/tambahkandb.png)
 
 ## Analisis
 
@@ -953,7 +953,7 @@ foreach($select_after_update as $key => $data){
 ```
 
 ## Hasil 
-![GAMBAR](ubahdb.png)
+![GAMBAR](GambarDB/ubahdb.png)
 
 ## Analsis
 
@@ -1007,7 +1007,7 @@ foreach ($select_after_delete as $key => $data) {
 ```
 
 ## Hasil 
-![GAMBAR](hapusdb.png)
+![GAMBAR](GambarDB/hapusdb.png)
 
 ## Analisis
 
@@ -1124,7 +1124,7 @@ if(isset($data)) {
 </html>
 ```
 ### Hasil Session
-![GAMBAR](sessiondb.png)
+![GAMBAR](GambarDB/sessiondb.png)
 
 ### Analisis Session
 - `session_start();` sebagai perintah dimulainya session.
@@ -1194,7 +1194,7 @@ if ($_SESSION['status'] != 'login') {
 </html>
 ```
 ### Hasil User
-![GAMBAR](userdb.png)
+![GAMBAR](GambarDB/userdb.png)
 ### Analisis Login User
 - `session_start();` sebagai perintah dimulainya session.
 - Program memeriksa apakah session `status` bernilai 'login' dan `username` bernilai 'admin'.
@@ -1268,7 +1268,7 @@ if ($_SESSION['status'] != 'login') {
 ```
 
 ### Hasil Admin
-![GAMBAR](admindb.png)
+![GAMBAR](GambarDB/admindb.png)
 
 ### Analisis Login Admin
 -  `session_start();` sebagai perintah dimulainya session.
@@ -1640,9 +1640,9 @@ Program PHP ini berfungsi untuk membatasi akses ke halaman admin hanya untuk pen
 </html>
 ```
 ### Hasil Upload
-![GAMBAR](tambahuploaddb.png)
+![GAMBAR](GambarDB/tambahuploaddb.png)
 
-![GAMBAR](uploadb.png)
+![GAMBAR](GambarDB/uploadb.png)
 
 ### Analisis Upload
 - Membuat halaman HTML sederhana dengan form untuk menambahkan data.
@@ -1724,7 +1724,7 @@ exit;
 ```
 
 ### Hasil Download
-![GAMBAR](downloaddb.png)
+![GAMBAR](GambarDB/downloaddb.png)
 
 ### Analisis Download
 
