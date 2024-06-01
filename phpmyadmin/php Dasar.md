@@ -88,7 +88,7 @@ $hasilBagi = $uangfachri / $uanghayril;
 echo "Pembagian uang fachri dan hayril: $uangfachri / $uanghayril = $hasilBagi <br>";
 ```
 HASIL:
-![GAMBAR](GAMBARPHP/ARITMATIKA.png)
+[!GAMBAR](GAMBARPHP/aritmatika.png)
 ANALISIS:
 1. **Inisialisasi Variabel**: Variabel `$uangfachri` dan `$uanghayril` diinisialisasi dengan nilai masing-masing 10 dan 5.
 2. **Penambahan**: Dilakukan penambahan antara nilai `$uangfachri` dan `$uanghayril`. Hasilnya disimpan dalam variabel `$hasilTambah` dan dicetak ke layar menggunakan echo.
