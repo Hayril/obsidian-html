@@ -586,7 +586,7 @@ foreach ($colors as $color) {
 }
 ```
 HASIL:
-![GAMBAR](GAMBARPHP/foreacg.png)
+![GAMBAR](GAMBARPHP/foreach.png)
 ANALISIS:
 1. **Inisialisasi Array**: Array `$colors` diinisialisasi dengan beberapa nilai warna.
 2. **Pengulangan dengan `foreach`**: Perulangan `foreach` digunakan untuk mengiterasi melalui setiap elemen dalam array `$colors`.
@@ -623,7 +623,7 @@ echo "Luas persegi panjang dengan panjang $panjang dan lebar $lebar adalah $luas
 ```
 
 HASIL:
-![GAMBAR](GAMBARPHP/function.png)
+![GAMBAR](GAMBARPHP/functionphp.png)
 
 ANALISIS:
 - Fungsi `hitungLuasPersegiPanjang` didefinisikan dengan dua parameter: `$panjang` dan `$lebar`.
