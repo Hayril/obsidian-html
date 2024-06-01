@@ -9,11 +9,11 @@ untuk penggunaan awal PHP kita harus mengikuti langkah langkah berikut.
 2) Masuk ke directory C.
    ![Gambar](GAMBARPHP/phpmysql2.png)
 3) Buka folder XAMPP lalu buka folder Htdocs.![GAMBAR](GAMBARPHP/phpmysql2.png)
-4) ![Gambar](gambarphp/phpmysql3.png)
-5)  Buat folder dengan nama yang anda inginkan.![Gambar](gambarphp/phpmysql4.png)
+4) ![Gambar](GAMBARPHP/phpmysql3.png)
+5)  Buat folder dengan nama yang anda inginkan.![Gambar](GAMBARPHP/phpmysql4.png)
 6) Kemudian Masuk ke VSCode lalu klik "Open Folder" dan pilih folder yang telah anda buat.![Gambar](gambarphp/phpmysql5.png)
 7) Buat Dokumen dengan ekstensi "php".
-![Gambar](gambarphp/phpmysql6.png)
+![Gambar](GAMBARPHP/phpmysql6.png)
 
 8) Anda telah dapat membuat kode program PHP sesuai dengan keinginan anda.
 ## Echo & Komentar 
