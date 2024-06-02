@@ -153,7 +153,7 @@ HASIL:
 ```
 
 HASIL:
-![GAMBAR](asset/em.png)
+![GAMBAR](asset/EM.png)
 
 
 4. CONTOH PROGRAM DARI REM:
@@ -193,7 +193,7 @@ HASIL:
 HASIL:
 Berikut adalah contoh penggunaan CSS unit jenis REM .
  **rem**: Mirip dengan em, tetapi ukurannya relatif terhadap ukuran font elemen root (biasanya elemen `<html>`). Hal ini membuat rem lebih mudah untuk digunakan dalam desain yang responsif.
-![GAMBAR](asset/rem.png)
+![GAMBAR](asset/REM.png)
 
 PRORAM HTML:
 ```HTML
@@ -223,7 +223,7 @@ HASIL:
 Berikut adalah contoh penggunaan CSS unit jenis VW dan VH.
  **vw (viewport width)**: Ukuran relatif terhadap lebar viewport (bagian terlihat dari halaman web). 1vw sama dengan 1% dari lebar viewport.
  **vh (viewport height)**: Ukuran relatif terhadap tinggi viewport. 1vh sama dengan 1% dari tinggi viewport.
-![GAMBAR](asset/vw.png)
+![GAMBAR](asset/contoh%20VW%20dan%20VH.png)
 
 ## IMPLEMENTASI 
 
@@ -354,6 +354,6 @@ CONTOH PENGIMPLEMENTASIAN pada pembuatan web site adalah:
 ```
 
 HASIL:
-![GAMBAR](asset/implementasi1.png)
+![GAMBAR](asset/IMPLEMENTASI1.png)
 
-![GAMBAR](asset/implementasi2.png)
+![GAMBAR](asset/IMPLEMENTASI2.png)
