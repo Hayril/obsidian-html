@@ -302,7 +302,7 @@ CONTOH:
 ```
 
 
-![GAMBAR](GAMBARBASDAT/OR.PNG)
+![GAMBAR](GAMBARBASDAT/or.png)
 
 ##  BETWEEN- AND
 select between-and ini akan menampilkan data antara "nilai1" dan "nilai2".karena didukung dengan AND.
