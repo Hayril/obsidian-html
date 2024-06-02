@@ -5,7 +5,7 @@ SELECT OrderID, CustID, OrderDate, RequiredDate, ShippedDate
 FROM orders WHERE EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret');
 ```
 ## Hasil query
-![](img/zz3.jpg)
+![](IMG/zz3.jpg)
 ## Analisis
 - `SELECT` : untuk memilih kolam mana saja yang ingin ditampilkan. 
 - `OrderID, CustID, OrderDate, RequiredDate, ShippedDate` : merupakan nama-nama kolom yang dipilih untuk ditampilkan.
