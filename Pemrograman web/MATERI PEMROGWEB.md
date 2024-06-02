@@ -589,11 +589,10 @@ button:active{
 
 HASIL:
 ==**BEFORE**==
-![GAMBAR](GAMBAR/activebefore.PNG)
+![GAMBAR](GAMBAR/activebefore.png)
 
 ==**AFTER**==
-![GAMBAR](GAMBAR/activeafter.PNG)
-
+![GAMBAR](GAMBAR/activeafter.png)
 ## TRANSITION
 
 + `Transition`:  untuk mengatur pertunjukan perubahan, mengubah penampilan elemen dari satu keadaan ke keadaan lain, memberikan dinamika visual yang menarik dalam desain web Anda.
