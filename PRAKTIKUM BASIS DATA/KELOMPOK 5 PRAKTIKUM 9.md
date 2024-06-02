@@ -23,7 +23,8 @@ FROM orders WHERE EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret'
  select * from employes where salary > (select AVG(salary) from employes);
 ```
 
-## HASIL:![GAMBAR](IMG/nomor2.PNG)
+## HASIL:
+![GAMBAR](IMG/nomor2.png)
 ## ANALISIS:
 - `select` perintah untuk menampilkan data.
 - `from` adalah perintah untuk pemanggilan dari tabel.
