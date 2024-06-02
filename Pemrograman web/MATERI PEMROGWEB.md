@@ -455,7 +455,7 @@ CONTOH PROGRAM :
 ```
 
 HASIL:
-![GAMBAR](ASETTANTANGAN/boxmodel.png)
+![GAMBAR](asettantangan/boxmodel.png)
 
 ## PADDING
   
@@ -492,7 +492,7 @@ CONTOH PROGRAM:
 ```
 
 HASIL PROGRAM:
-![GAMBAR](GAMBAR/MARGIN.PNG)
+![GAMBAR](GAMBAR/margin.png)
 
 ## TEXT-TRANSFROM
 
@@ -514,9 +514,9 @@ CONTOH PROGRAM:
 
 HASIL:
 ==**BEFORE**==
-![GAMBAR](GAMBAR/BEFORETRANSFROM.PNG)
+![GAMBAR](GAMBAR/beforetransfrom.png)
 ==**AFTER**==
-![GAMBAR](GAMBAR/AFTERTRANSFROM.PNG)
+![GAMBAR](GAMBAR/aftertransfrom.png)
 
 ## TEXT INDENT
 `Text-indent` adalah properti CSS yang digunakan untuk mengatur jarak atau indentasi awal dari paragraf atau teks di dalam sebuah elemen
@@ -589,10 +589,10 @@ button:active{
 
 HASIL:
 ==**BEFORE**==
-![GAMBAR](GAMBAR/ACTIVEBEFORE.PNG)
+![GAMBAR](GAMBAR/activebefore.PNG)
 
 ==**AFTER**==
-![GAMBAR](GAMBAR/ACTIVEAFTER.PNG)
+![GAMBAR](GAMBAR/activeafter.PNG)
 
 ## TRANSITION
 
@@ -621,7 +621,7 @@ HASIL:
 ![GAMBAR](GAMBAR/transitonbefore.png)
 
 ==**AFTER**==
-![GAMBAR](GAMBAR/TRANSITIONAFTER.PNG)
+![GAMBAR](GAMBAR/transitionafter.png)
 
 ## TRANSFROM
 
