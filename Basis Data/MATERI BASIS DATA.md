@@ -35,9 +35,9 @@ Berikut adalah cara membuat data base:
 1.masuk pada aplikasi xampp
 2.pilih mode  mysql lalu klik start
 3.kemudian klik shell.
-![GAMBAR BASIS DATA](AWAL.png)
+![GAMBAR BASIS DATA](GAMBARBASDAT/AWAL.png)
 berikut adalah tampilan sheel yang harus dimasuki
-![gambar](shel.png)
+![gambar](GAMBARBASDAT/shel.png)
 4.ketik `xampp-setup-storage`.lalu klik `allow` agar xampp dapat mengakses penyimpanan ke file explorer pada laptop.
 5.saat masuk kedalam admin  ketik `mysql -u root -p` untuk masuk kedalam user databases.
 6.kemudian kita akan disuruh memasukkan password,klik enter jika tidak mempunyai password.
@@ -47,26 +47,45 @@ berikut adalah tampilan sheel yang harus dimasuki
 setelah pembuatan database telah selesai,kita dapat menerapkan mysql dengann menggunakan fitur adalah membuat,menghapus,melihat,dan menggunakan database.
 
 - **Membuat Database**,dalam pembuatan database pada mysql,di awali dengan menggunakan query `CRATE DATABASE [NAMA DATABASE]` setelah pengetikan query database akan terbuat.
+<<<<<<< HEAD
 ### CONTOH GAMBAR:
 ![gambar](membuatdb.png)
+=======
+CONTOH GAMBAR:
+![gambar](GAMBARBASDAT/membuatdb.png)
+>>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
 a.Pada tabel pertama merupakan tampilan pertama tabel berisikan nama nama-nama database sebelum membuat database yang baru
 b.Pada bagian yang diblok pada gambar adalah sebuah perintah dengan *query* `create database rayhanbatman;` sebagai perintah mysql untuk membuat sebuah database dengan nama `rayhanbatman` pada mysql.
 c. pada tabel kedua merupakan tampilan tabel yang telah berhasil membuat database dengan nama `rayhanbatman`. 
 
 - **Menghapus Database**, dalam peghapusan database pada mysql,diawali dengan meggunakan query `DROP DATABASE[NAMA DATABASE]` maka mysql akan melakukan penghapusan Database setelah perintah query ini.
+<<<<<<< HEAD
 ### CONTOH GAMBAR:
 ![gambar](menghapusdb.png)
+=======
+CONTOH GAMBAR:
+![gambar](GAMBARBASDAT/menghapusdb.png)
+>>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
 a.Pada tabel pertama merupakan tampilan pertama tabel berisikan nama nama database sebelum menghapus database dengan nama `rayhanbatman` 
 b.Pada bagian yang diblok pada gambar adalah sebuah perintah dengan *query* `drop database rayhanbatman;` sebagai perintah mysql untuk menghapus sebuah database dengan nama `rayhanbatman` pada mysql.
 c. pada tabel kedua merupakan tampilan tabel yang telah berhasil mengahapus database dengan nama `rayhanbatman`. 
 
 - **Menampilkan Database**,dalam peritah menampilan database pada mysql,diawali dengan query `SHOW DATABASES;` maka perintah mysql akan menampilkan Databases setelah perintah query.
+<<<<<<< HEAD
 ### CONTOH GAMBAR:
 ![GAMBAR](membuatdb.png)
 pada gambar di atas menampilkan tabel yang telah ditampilkan setelah melakukan perintah mysql dengan menggunakan *query*  `SHOW DATABASES;` maka akan ditampilkan beberapa nama-nama database pada mysql.
 - **Menggunakan Database**,dalam perintah menggunakan database pada mysql,maka perintahnya menggunakan query `USE[NAMA_DATABASE]`
 ### CONTOH GAMBAR:
 ![GAMBAR](use.png)
+=======
+CONTOH GAMBAR:
+![GAMBAR](GAMBARBASDAT/membuatdb.png)
+pada gambar di atas menampilkan tabel yang telah ditampilkan setelah melakukan perintah mysql dengan menggunakan *query*  `SHOW DATABASES;` maka akan ditampilkan beberapa nama-nama database pada mysql.
+- **Menggunakan Database**,dalam perintah menggunakan database pada mysql,maka perintahnya menggunakan query `USE[NAMA_DATABASE]`
+CONTOH GAMBAR:
+![GAMBAR](GAMBARBASDAT/use.png)
+>>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
 pada gambar di atas tertampilkan bahwa *query* `MariaDB [("none")]`adalah database yang sedang digunakan,kemudian setelah melakukan perintah dengan *query* `use XI_RPL_1` maka pada tampilan yang diblok dengan *query*`MariaDB [XI_RPL_1]>` menandakan bawa user telah berada pada database `XI_RPL_1`
 
 # Tabel 
@@ -93,7 +112,7 @@ nama_belakang bertipe data **VARCHAR** untuk menyimpan data berupa karakter deng
 >Setelah memasukkan query di atas,tekan ENTER lalu ketik `DESC [NAMA TABEL]`,Kemudian tekan ENTER.
 
 ## tampilan struktur tabel
-![GAMBAR](strukturtabel.png)
+![GAMBAR](GAMBARBASDAT/strukturtabel.png)
 
  - `id` adalah nama data base atau variabel untuk mengisi **id**,`INT(4)`  adalah perintah untuk menambahkan data id pelanggan dengan menggunakan tipe data `INT` untuk menyimpan data berupa angka,dan angka 4 adalah jumlah data yang hanya dapat ditambahkan. `PRIMARY KEY NOT NULL` adalah perintah untuk membuat data menjadi terkunci yang artinya data tersebut wajib terisi.
  - `nama_depan` merupakan variabel untuk menambahkan data dengan inisialisasi **nama_depan** dan `VARCHAR` sebagai tipe data untuk menyimpan data berupa karakter dan *(25)* adalah sebuah keterangan yang hanya dapat berupa 25 data,`NOT NULL` adalah sebagai perintah agar menegaskan bahwa data tersebut bisa saja tidak terisi.
@@ -301,8 +320,13 @@ select OR ini akan menampilkan data dengan  "nilai1"  atau "nilai2".
  select warna,pemilik FROM mobil WHERE warna="hitam" OR pemilik="ibrahim";
 ```
 
+<<<<<<< HEAD
 ### HASIL
 ![GAMBAR](GAMBARBASDAT/OR.PNG)
+=======
+
+![GAMBAR](GAMBARBASDAT/or.png)
+>>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
 
 ##  BETWEEN- AND
 select between-and ini akan menampilkan data antara "nilai1" dan "nilai2".karena didukung dengan AND.

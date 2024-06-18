@@ -9,13 +9,20 @@ SELECT OrderID, CustID, OrderDate, RequiredDate, ShippedDate
 FROM orders WHERE EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret');
 ```
 ## Hasil query
-![](img/zz3.jpg)
+![](IMG/zz3.jpg)
 ## Analisis
 - `SELECT` : untuk memilih kolam mana saja yang ingin ditampilkan. 
 - `OrderID, CustID, OrderDate, RequiredDate, ShippedDate` : merupakan nama-nama kolom yang dipilih untuk ditampilkan.
 - `FROM orders` : untuk memilih dari tabel mana kolom tersebut dipilih. `orders` adalah nama dari tabel yang dipilih
 - `EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret')` : merupakan kondisi dari WHERE yang harus dipenuhi.
 - HASILNYA : jadi dalam query ada subquery ya itu pada bagian kondisi `WHERE` ada lagi `SELECT` yang kedua, dalam situ dia memilih kolom `EmpID` dari tabel `Employees` yang kolom `FirstName` nya berisi `Margaret`. Kondisinya ada lah mereka hanya menampilkan data yang kolom `EmpID` nya memiliki data yang sama dengan kolom `EmpID` pada tabel `Employees` yang kolom `FirstName` nya `Margaret`. Iya itu 5. Jadi barisan data yang memiliki `EmpID` 5 yang akan ditampilkan yaitu barisan data `EASTC` , `SEVES` , `MAISD` , `ALFKI` , dan `ISLAT`
+<<<<<<< HEAD
+=======
+## tabel orders
+![](IMG/zz1.jpg)
+## tabel employees
+![](IMG/zz2.jpg)
+>>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
 
 #  NOMOR 2-4 
 ## 2.QUERY:
@@ -23,7 +30,8 @@ FROM orders WHERE EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret'
  select * from employes where salary > (select AVG(salary) from employes);
 ```
 
-## HASIL:![GAMBAR](IMG/NOMOR2.PNG)
+## HASIL:
+![GAMBAR](IMG/nomor2.png)
 ## ANALISIS:
 - `select` perintah untuk menampilkan data.
 - `from` adalah perintah untuk pemanggilan dari tabel.
@@ -73,6 +81,14 @@ select * from employes where salary > SOME (select salary from employes where ti
 ## KESIMPULAN:
 QUERY diatas adalah perintah untuk menampilkan secara keseluruhan, query ini akan menghasilkan baris-baris dari tabel "employes" di mana gaji setiap karyawan lebih besar dari setidaknya satu gaji karyawan dengan jabatan "sales rep."
 
+<<<<<<< HEAD
+=======
+## tabel orders
+![](IMG/zz1.jpg)
+## tabel employees
+![](IMG/zz2.jpg)
+
+>>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
 # Nomor 5-6
 
 ## 5.Query:
