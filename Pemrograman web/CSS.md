@@ -283,7 +283,7 @@ CONTOH PROGRAM:
 ```
 
 HASIL PROGRAM:
-	![GAMBAR](GAMBAR/imgsize.png)
+![GAMBAR](GAMBAR/imgsize.png)
 
 
 
@@ -307,7 +307,7 @@ CONTOH PROGRAM:
 ```
 
 HASIL PROGRAM:
-	![GAMBAR](GAMBAR/bgrepeat.png)
+![GAMBAR](GAMBAR/bgrepeat.png)
 ### BACKGROUND-ATTACHMENT
 `Background attachment` adalah properti CSS yang menentukan apakah gambar latar belakang (background image) sebuah elemen HTML akan bergulir bersamaan dengan konten halaman atau tetap diam ketika halaman digulir. Properti ini memiliki dua nilai utama:
 1. **scroll**: Gambar latar belakang akan bergulir bersamaan dengan konten saat halaman digulir. Ini adalah nilai defaultnya.
@@ -1147,15 +1147,15 @@ kita dapat menemukan daftar komponen lengkap dan dokumentasi resmi di situs web 
 # Contoh Penerapan Komponen Bootstrap
 ## Typography
 1. Buka situs resmi Bootstrap di [getboostrap.com](getbootstrap.com)
-	![GAMBAR](btc-1.png)
+![GAMBAR](assets/btc-1.png)
 2. Klik "Read the docs". Maka kita akan diarahkan pada halaman web yang berisi berbagai macam Typografi (class Bootstrap).
-	![GAMBAR](btc-2.png)
+![GAMBAR](assets/btc-2.png)
 3. Misalnya kita akan membuat sebuah teks quotes seperti di bawah ini:
-	![GAMBAR](btc-3.png)
+![GAMBAR](assets/btc-3.png)
 4. Ketikan "Typography" di kolom search lalu enter. Maka kita akan masuk ke halaman berikut:
-	![GAMBAR](btc-4.png)
+![GAMBAR](assets/btc-4.png)
 5. Carilah Subbab "Alignment":
-	![GAMBAR](btc-5.png)
+![GAMBAR](assets/btc-5.png)
 6. Salinlah kode yang tertera, lalu tempelkan di tag body pada halaman html yang telah kita hubungkan dengan Bootstrap kita
 ```html
 <figure class="text-center">
@@ -1168,9 +1168,9 @@ Someone famous in
 </figcaption>
 </figure>
 ```
-![btc-6.png](btc-6.png)
+![btc-6.png](assets,btc-6.png)
 7. Hasilnya akan terlihat seperti berikut:
-	![GAMBAR](btc-7.png)
+![GAMBAR](assets/btc-7.png)
 8. Kita bisa mengganti kata kata nya dengan cara mengganti teks yang ada di dalam tag p dan untuk teks kecil bagian bawah kita ganti pada bagian dalam tag figcaption
 ```html
 <figure class="text-center">
@@ -1186,7 +1186,7 @@ Someone famous in
 </figure>
 ```
 Hasilnya adalah sebagai berikut:
-![GAMBAR](btc-8.png)
+![GAMBAR](assets/btc-8.png)
 *Keterangan :*
 1. ==`text-center`== pada ==`<figure>`==: Kelas ini diterapkan pada elemen ==`<figure>`== , yang mengakibatkan kontennya, termasuk elemen ==`<blockquote>`== dan ==`<figcaption>`== , akan diatur menjadi ketengah halaman maupun kontainer.
 2. blockquote pada ==`<blockquote>`== : Kelas ini memberikan gaya khusus pada elemen ==`<blockquote>`== . Elemen ini digunakan untuk merinci sebuah kutipan atau teks yang dianggap signifikan. Penggunaan kelas ini dari Bootstrap mungkin memberikan tampilan tertentu, seperti memodifikasi gaya margin atau padding, untuk memberikan estetika yang lebih baik.
@@ -1197,11 +1197,11 @@ Hasilnya adalah sebagai berikut:
 Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut dan "Doroboka" adalah sumber dimana orang tersebut mengatakn kata-kata itu. Kata- kata yang dituliskan yaitu berada dalam tag ==`p`== .
 ## Navbar
 1. Bukalah Kembali [getbootstrap.com](getbootstrap.com) lalu ketik "navbar" dikolom "search" dan klik enter
-	![GAMBAR](btc-15.png)
+![GAMBAR](assets/btc-15.png)
 2. Carilah jenis navbar yang diinginkan.
-	![GAMBAR](btc-16.png)
+	![GAMBAR](assets/btc-16.png)
 3. Jika misalnya kita telah menemukan jenis navbar yang kita inginkan, maka, salinlah kode program yang ada dibawah gambar contoh navbar tersebut
-	![GAMBAR](btc-17.png)
+	![GAMBAR](assets/btc-17.png)
 ```html
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -1237,35 +1237,35 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 
 ```
 4. Tempelkanlah kode program yang terlah kita salin ke dalam tag body di file html kita. Jangan lupa untuk menautkan file html kita dengan bootstrap seperti pada langkah-langkah sebelumnya
-	![[btc-18.png]]
+![btc-18.png](assets/btc-18.png)
 5. Jalankanlah file html yang sudah ditempeli kode program bootstrap tadi melalui web browser. Maka lihatlah hasilnya
-	![GAMBAR](btc-19.png)
+	![GAMBAR](assets/btc-19.png)
 6. Misalnya kita ingin memberikan warna hijau pada background navbar kita. Pertama ketiklah "background" di kolom search
-	![GAMBAR](btc-20.png)
+	![GAMBAR](assets/btc-20.png)
 7. Carilah Warna yang kita inginkan. Misalnya dalam praktek ini adalah warna hijau
-	![GAMBAR](btc-21.png)
-	![GAMBAR](btc-22.png)
+	![GAMBAR](assets/btc-21.png)
+	![GAMBAR](assets/btc-22.png)
 	Terdapat banyak jenis warna dalam bootstrap.
 8. Karena kita ingin mengkostumisasi warna background kita menjadi hijau maka kita akan memakai bg-succes . ketikkan bg-succes pada class tag pembuka seperti di bawah ini
-	![GAMBAR](btc-23.png)
+	![GAMBAR](assets/btc-23.png)
 	*Keterangan*:
 	Karena kita akan memberikan warna background pada navbar maka untuk menerapkannya, langsung terapkan class tag yang membungkus semua eleme-elemen yang ada pada tag tersebut.
 9. Jika sudah maka hasilnya akan seperti ini:
-	![GAMBAR](btc-24.png)
+	![GAMBAR](assets/btc-24.png)
 10. Sekarang kita akan mengubah warna font yang ada pada navbar. Langkah pertama klik "Colors" pada bagian Utilities
-	![GAMBAR](btc-25.png)
+	![GAMBAR](assets/btc-25.png)
 11. Maka kita akan diarahkan pada halaman yang memuat berbagai macam warna font
-	![GAMBAR](btc-26.png)
+	![GAMBAR](assets/btc-26.png)
 12. Carilah warna font yang kita inginkan. Misalnya pada kostumisasi navbar ini. Kita akan menggunakan warna font putih
-	![GAMBAR](btc-27.png)
+	![GAMBAR](assets/btc-27.png)
 13. Karena kita ingin menggunakan warna font putih maka perintah yang digunakan adalah "text-white"
 14. Masuklah kembali ke dalam file html kita
 15. pada bagian class sebuah tag yang membungkus text yang akan kita ganti warna, ketiklah text-white . Contohny ada pada gambar berikut:
-	![GAMBAR](btc-28.png)
+	![GAMBAR](assets/btc-28.png)
 16. Hasilnya akan terlihat seperti di gambar ini:
-	![GAMBAR](btc-29.png)
+	![GAMBAR](assets/btc-29.png)
 17. Terapkanlah Text-White diseluruh class pada tag yang membungkus text-text itu seperti halnya pada text navbar tadi
-	![GAMBAR](btc-30.png)
+	![GAMBAR](assets/btc-30.png)
 18. Jika file html dijalankan, hasilnya adalah sebagai berikut
 	![GAMBAR](btc-31.png)
 19. Sekarang kita akan mengganti text yang ada di navbar tersebut. Caranya sangat mudah, yaitu cukup kita ganti text-text tadi dengan kata kata yang kita inginkan. Misalnya adalah sebagai berikut:
