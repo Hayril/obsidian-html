@@ -570,8 +570,11 @@ CONTOH PROGRAM:
 
 HASIL:
 ==**BEFORE**==
+
 ![GAMBAR](GAMBAR/beforehover.png)
+
 ==**AFTER**==
+
 ![GAMBAR](GAMBAR/afterhover.png)
 
 ## Active
@@ -587,10 +590,13 @@ button:active{
 
 HASIL:
 ==**BEFORE**==
+
 ![GAMBAR](GAMBAR/activebefore.png)
 
 ==**AFTER**==
+
 ![GAMBAR](GAMBAR/activeafter.png)
+
 ## TRANSITION
 
 + `Transition`:  untuk mengatur pertunjukan perubahan, mengubah penampilan elemen dari satu keadaan ke keadaan lain, memberikan dinamika visual yang menarik dalam desain web Anda.
@@ -615,9 +621,11 @@ CONTOH PROGRAM:
 
 HASIL:
 **==BEFORE==**
+
 ![GAMBAR](GAMBAR/transitonbefore.png)
 
 ==**AFTER**==
+
 ![GAMBAR](GAMBAR/transitionafter.png)
 
 ## TRANSFROM
