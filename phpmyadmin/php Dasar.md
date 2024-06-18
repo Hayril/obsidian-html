@@ -2,7 +2,6 @@
 Pembagian jenis website di bagi menjadi dua bagian yaitu web statis dan web dinamis. Web statis adalah website yang hanya menampilkan sebuah output dari hasil program yang telah diketikkan sedangkan web dinamis adalah sebuah web yang lebih kompleks karena kita dapat memberi input pada website dan website tersebut dapat menyimpan data yang kita masukkan.
 # PHP
 PHP (Hypertext Preprocessor) adalah sebuah bahasa skrip dengan fungsi umum yang terutama digunakan untuk pengembangan sebuah web dinamis ataupun website interaktif. PHP juga mendukung banyak jenis database seperti MySQL, PostgreSQL dan Oracle sehingga pembangunan sebuah website dapat menjadi lebih kompleks.
-
 ## Penggunaan Awal PHP 
 untuk penggunaan awal PHP kita harus mengikuti langkah langkah berikut.
 1) Buka XAMPP lalu aktifkan "MySQL" dan "Apache". ![Gambar](GAMBARPHP/phpmysql.png)
