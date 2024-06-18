@@ -20,6 +20,7 @@ untuk penggunaan awal PHP kita harus mengikuti langkah langkah berikut.
 Dalam php kita dapat mengetikkan sesuatu dengan kode "echo" dan menambahkan membuat sebuah komentar di penulisan program untuk penjelasan lebih lanjutnya akan dijelaskan di bawah ini. Dalam penulisan echo terdapat dua cara yaitu dengan kutip satu dan kutip dua, lalu untuk perbedaan antara keduanya akan dijelaskan lebih lanjut dibawah ini.
 ### Echo kutip satu
 Untuk penulisan echo dengan kutip satu hasil yang akan tampil adalah seluruh yang ditulis di dalamnya dan hasil yang tampil akan terhitung sebagai string, walaupun ada variable yang dituliskan di dalam kutipnya. Untuk contoh programnya akan seperti berikut.
+
 ```php
 echo 'Jumlah meja di kelas '. $meja . ' buah';
     echo "<br>";
@@ -87,9 +88,9 @@ echo "Perkalian uang fachri dan hayril: $uangfachri * $uanghayril = $uanghayril 
 $hasilBagi = $uangfachri / $uanghayril;
 echo "Pembagian uang fachri dan hayril: $uangfachri / $uanghayril = $hasilBagi <br>";
 ```
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/aritmatika.png)
-ANALISIS:
+#### ANALISIS:
 1. **Inisialisasi Variabel**: Variabel `$uangfachri` dan `$uanghayril` diinisialisasi dengan nilai masing-masing 10 dan 5.
 2. **Penambahan**: Dilakukan penambahan antara nilai `$uangfachri` dan `$uanghayril`. Hasilnya disimpan dalam variabel `$hasilTambah` dan dicetak ke layar menggunakan echo.
 3. **Pengurangan**: Dilakukan pengurangan antara nilai `$uangfachri` dan `$uanghayril`. Hasilnya disimpan dalam variabel `$hasilKurang` dan dicetak ke layar menggunakan echo.
@@ -152,9 +153,9 @@ if ($a >= $b) {
 ?>
 ```
 
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/perbandingan.png)
-ANALISIS:
+#### ANALISIS:
 1. **Operator Perbandingan == (sama dengan)**:
     - Program mengecek apakah nilai $a sama dengan nilai $b.
     - Jika kondisi terpenuhi, program mencetak bahwa $a sama dengan $b. Jika tidak, mencetak bahwa $a tidak sama dengan $b.
@@ -173,7 +174,7 @@ ANALISIS:
 6. **Operator Perbandingan >= (lebih dari atau sama dengan)**:
     - Program mengecek apakah nilai $a lebih dari atau sama dengan nilai $b.
     - Jika kondisi terpenuhi, program mencetak bahwa $a lebih dari atau sama dengan $b. Jika tidak, mencetak bahwa $a tidak lebih dari atau sama dengan $b.
-KESIMPULAN:
+#### KESIMPULAN:
 1. **Operator Perbandingan**: PHP menyediakan berbagai operator perbandingan seperti ==, !=, <, >, <=, dan >= untuk membandingkan nilai antara dua variabel atau ekspresi.
 2. **Penanganan Kondisi**: Program menggunakan struktur kondisional if-else untuk menentukan tindakan yang akan diambil berdasarkan hasil perbandingan.
 3. **Pemahaman Hasil Perbandingan**: Dengan menggunakan operator perbandingan, kita dapat memeriksa hubungan antara dua nilai dan melakukan tindakan berdasarkan hasilnya.
@@ -217,14 +218,14 @@ echo "<br>";
 ?>
 ```
 
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/logika.png)
-ANALISIS:
+#### ANALISIS:
 1. Operator logika AND (&&): Dalam blok kode ini, kita menggunakan operator logika AND untuk mengecek apakah kedua variabel, `$fachri` dan `$hayril`, memiliki nilai true. Namun, variabel `$hayril` memiliki nilai false, sehingga ekspresi kondisionalnya tidak akan dievaluasi menjadi true. Akibatnya, program akan mencetak pesan "ada yang tidak tinggal di jl.singa."
 2. Operator logika OR (||): Pada blok kode ini, kita menggunakan operator logika OR untuk mengecek apakah salah satu atau kedua variabel memiliki nilai true. Karena `$fachri` memiliki nilai true, maka ekspresi kondisionalnya akan dievaluasi menjadi true. Sehingga, program akan mencetak pesan "mereka nongkrong di jl.singa."
 3. Operator logika NOT (!): Blok kode ini menggunakan operator logika NOT untuk membalikkan nilai dari variabel `$fachri`. Karena `$fachri` memiliki nilai true, maka NOT dari nilai tersebut adalah false. Oleh karena itu, program akan mencetak pesan "dia tinggal di jl.singa."
 
-KESIMPULAN:
+#### KESIMPULAN:
 Program tersebut memberikan contoh sederhana penggunaan operator logika dalam PHP. Dengan menggunakan operator logika seperti AND, OR, dan NOT, kita dapat melakukan pengecekan kondisi dan pengambilan keputusan berdasarkan nilai-nilai boolean dari variabel-variabel yang diberikan.
 
 
@@ -234,38 +235,38 @@ Conditional statement adalah fitur dalam pemrograman yang memungkinkan eksekusi 
 ### IF
 **IF** adalah salah satu pernyataan yang digunakan untuk menguji kondisi tertentu dan mengeksekusi blok kode tertentu jika kondisi tersebut benar (true)
 
-STRUKTUR:
+#### STRUKTUR:
 ```php
 if (kondisi) { // Blok kode yang akan dieksekusi jika kondisi bernilai true }
 ```
 
-PROGRAM:
+#### PROGRAM:
 ```php
 <?php $standarnilai = 80; 
 if ($standarnilai >= 70) { 
 echo "asikk naik kelas."; } ?>
 ```
 
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/if.png)
-ANALISIS:
+#### ANALISIS:
 1. Deklarasi variabel: `$standarnilai` diberi nilai 80.
 2. Percabangan: Program menggunakan struktur percabangan if untuk mengevaluasi apakah `$standarnilai` lebih besar dari atau sama dengan 70.
 3. Eksekusi: Jika nilai `$standarnilai` memenuhi kondisi yang ditentukan (lebih besar dari atau sama dengan 70), maka program akan mengeluarkan statement "asikk naik kelas.".
-KESIMPULAN:
+#### KESIMPULAN:
 Program ini memberikan statement "asikk naik kelas." jika nilai `$standarnilai` sama dengan atau lebih besar dari 70.
 
 ### IF ELSE
 if else adalah program untuk menjalankan suatu statement jika kondisi tertentu terpenuhi, dan menjalankan statement yang berbeda jika kondisi tersebut tidak terpenuhi.
 
-STRUKTUR:
+#### STRUKTUR:
 ```PHP
 if (kondisi) { // pernyataan yang akan dieksekusi jika kondisi benar } 
 else { 
 // pernyataan yang akan dieksekusi jika kondisi salah }
 ```
 
-PROGRAM:
+#### PROGRAM:
 ```php 
 $umur = 18;
 
@@ -276,9 +277,9 @@ if ($umur >= 18) {
 }
 ```
 
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/ifelse.png)
-ANALISIS:
+#### ANALISIS:
 1. Variabel `$umur` diberi nilai 18.
 2. Program menggunakan  if else untuk mengevaluasi apakah nilai `$umur` lebih besar dari atau sama dengan 18.
 3. Jika nilai `$umur` memenuhi kondisi yang ditentukan (lebih besar dari atau sama dengan 18), maka program akan mengeluarkan statement "halo kak.". Jika tidak, program akan mengeluarkan statement "masih kecil ki dek.".
@@ -288,7 +289,7 @@ Program ini memberikan pesan yang berbeda berdasarkan nilai dari variabel `$umur
 ### IF ELSE ELSE
 Struktur if else if else adalah cara untuk mengevaluasi beberapa kondisi secara berurutan yang lebih dari dua kondisi.
 
-STRUKTUR:
+#### STRUKTUR:
 ```php
 if (kondisi1) {
     // pernyataan yang akan dieksekusi jika kondisi1 benar
@@ -298,7 +299,7 @@ if (kondisi1) {
     // pernyataan yang akan dieksekusi jika semua kondisi sebelumnya salah
 }
 ```
-PROGRAM:
+#### PROGRAM:
 ```php 
 $nilai = 75;
 if ($nilai >= 80) {
@@ -309,21 +310,21 @@ if ($nilai >= 80) {
     echo "nice try.";
 }
 ```
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/ifelse2.png)
-ANALISIS:
+#### ANALISIS:
 1. Variabel `$nilai` diberi nilai 75.
 2. Program menggunakan struktur if else if else untuk mengevaluasi nilai dari variabel `$nilai`.
 3. program mengevaluasi apakah nilai `$nilai` lebih besar dari atau sama dengan 80. Karena 75 tidak memenuhi kondisi ini, program melanjutkan ke langkah berikutnya.
 4. program mengevaluasi apakah nilai `$nilai` lebih besar dari atau sama dengan 60. Karena 75 memenuhi kondisi ini, blok pernyataan di dalam `else if` akan dieksekusi, yaitu mengeluarkan statement "lumayan lah.".
 5. jika kedua kondisi tidak memenuhi syarat maka akan mengeluarkan statement "nice try".
-KESIMPULAN:
+#### KESIMPULAN:
 Program memberikan umpan balik berdasarkan rentang nilai tertentu. Dalam hal ini, karena nilai `$nilai` adalah 75, pesan "lumayan lah." akan dicetak. Ini menunjukkan bahwa seseorang mendapatkan respons "lumayan" karena nilai mereka mencapai rentang tertentu (60 hingga 79), meskipun tidak cukup untuk memenuhi standar "lulus" (80 atau lebih).
 
 ### Switch Case
 switch  case adalah program yang memungkinkan sebuah ekspresi dievaluasi satu kali, dan nilai ekspresi tersebut dibandingkan dengan serangkaian kasus. Setiap kasus berisi pernyataan yang akan dieksekusi jika nilai ekspresi sama dengan nilai kasus tersebut.
 
-STRUKTUR:
+#### STRUKTUR:
 ```PHP
 switch (ekspresi) {
     case nilai1:
@@ -339,7 +340,7 @@ switch (ekspresi) {
 }
 ```
 
-PROGRAM:
+#### PROGRAM:
 ```PHP
 $hari = "Selasa";
 
@@ -359,16 +360,16 @@ switch ($hari) {
 }
 ```
 
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/switchcase.png)
-ANALISIS:
+#### ANALISIS:
 1. Struktur kontrol `switch` digunakan untuk mengevaluasi nilai dari ekspresi  (`$hari` ).
 2. Setelah ekspresi dievaluasi, program akan mencocokkan nilai ekspresi dengan nilai-nilai yang terdaftar dalam kasus-kasus.
 3. Jika nilai ekspresi cocok dengan salah satu kasus, blok pernyataan di dalam kasus tersebut akan mengeluarkan statement. Dalam contoh, jika nilai ekspresi adalah "Selasa", maka blok pernyataan di dalam kasus "Selasa" akan dijalankan
 4. Setelah blok pernyataan di dalam kasus dieksekusi, program akan keluar dari struktur `switch`, kecuali jika ada pernyataan `break` yang menghentikan alur eksekusi.
 5. Jika tidak ada kasus yang cocok, maka blok pernyataan dalam bagian `default` (opsional) akan dieksekusi.
 
-KESIMPULAN:
+#### KESIMPULAN:
 Anda dapat memastikan bahwa eksekusi program keluar dari struktur `switch` setelah sebuah kasus berhasil dipilih, menghindari eksekusi tidak perlu dari kasus-kasus berikutnya. Jika tidak ada kasus yang cocok, Anda bisa memberikan umpan balik dalam blok `default`, memberikan respons yang diinginkan jika tidak ada pilihan yang sesuai.
 
 ## Array
@@ -378,11 +379,11 @@ Array dalam PHP adalah jenis variabel yang dapat menyimpan lebih dari satu nilai
 ### Array 1 dimensi
 Array satu dimensi, juga dikenal sebagai indexed array, adalah jenis array di mana setiap elemen memiliki indeks numerik yang unik, dan nilai-nilai tersebut disimpan dalam urutan linear. Indeks dimulai dari 0 dan terus bertambah secara berurutan untuk setiap elemen dalam array.
 
-STRUKTUR:
+#### STRUKTUR:
 ```PHP
 $nama_array = array(nilai1, nilai2, nilai3, ...);
 ```
-PROGRAM:
+#### PROGRAM:
 ```PHP
 <?php
 // Deklarasi dan inisialisasi array
@@ -393,25 +394,25 @@ echo "Buah favorit Anda adalah " . $buah[0] . "<br>"; // Output: Buah favorit An
 echo "Buah kedua favorit Anda adalah " . $buah[1] . "<br>"; // Output: Buah kedua favorit Anda adalah Pisang
 ?>
 ```
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/1dimensi.png)
-ANALISIS:
+#### ANALISIS:
 
 1.  Array `$buah` dideklarasikan dan diinisialisasi dengan beberapa nama buah: "Apel", "Pisang", "Jeruk", "Anggur", dan "Mangga".
 2.  Program menggunakan nomor untuk mengakses nilai array. Dalam contoh ini, nilai array dicetak menggunakan pernyataan `echo`. Contoh ini mencetak "Buah favorit Anda adalah Apel" dan "Buah kedua favorit Anda adalah Pisang".
 3. **Analisis**: Program ini menunjukkan cara mengakses nilai array menggunakan nomor. penghitungan elemen array dimulai dari 0 dan berturut-turut. Dalam contoh ini, "Apel" memiliki nomor 0, "Pisang" memiliki nomor 1, dan seterusnya. Dengan menggunakan nomor, Anda dapat mengakses nilai array secara terpisah untuk diproses atau ditampilkan.
 
-KESIMPULAN:
+#### KESIMPULAN:
 Penggunaan array satu dimensi ini memudahkan pengelolaan kumpulan data yang serupa dalam satu variabel. Dengan array, Anda dapat menyimpan, mengakses, dan memanipulasi sejumlah nilai dengan cara yang efisien dan terstruktur.
 ### Array Asosiatif
 Array asosiatif adalah jenis array di mana setiap elemen memiliki nama yang terkait dengan nilainya. Dalam array asosiatif, pemanggilan tidak berupa urutan nomor, tetapi berupa nama yang ditentukan oleh pengguna.
 
-STRUKTUR:
+#### STRUKTUR:
 ```PHP
 $umur = array("hayril" => 25, "fachri" => 30, "rayhan" => 35);
 ```
 
-PROGRAM:
+#### PROGRAM:
 ```php
 $umur = array("hayril" => 25, "fachri" => 30, "rayhan" => 35);
 
@@ -420,17 +421,17 @@ echo "Umur Fachri adalah " . $umur["fachri"] . " tahun.<br>";
 echo "Umur Rayhan adalah " . $umur["rayhan"] . " tahun.";
 ```
 
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/asosiatif.png)
-ANALISIS:
+#### ANALISIS:
 1. Program di atas mendeklarasikan array asosiatif `$umur` dengan tiga pasangan kunci-nilai. Setiap kunci adalah nama orang, dan nilainya adalah umur mereka.
 2. Kemudian, program mengakses nilai array menggunakan kunci (nama orang) dan mencetak umur masing-masing orang.
-KESIMPULAN:
+#### KESIMPULAN:
 Program ini menunjukkan cara menggunakan array asosiatif untuk menyimpan dan mengakses data dengan kunci yang bermakna. Dalam contoh ini, kita menyimpan informasi umur orang-orang dengan menggunakan nama mereka sebagai kunci.
 ## Array Multidimensi
 Array multidimensi adalah jenis array di mana setiap elemen dalam array itu sendiri adalah array. Dengan kata lain, array multidimensi adalah array yang memiliki array sebagai elemen-elemennya.
 
-STRUKTUR:
+#### STRUKTUR:
 ```PHP
 $matriks = array(
     array(1, 2, 3),
@@ -439,7 +440,7 @@ $matriks = array(
 );
 ```
 
-PROGRAM:
+#### PROGRAM:
 ```php
 	$matriks = array(
 	array(1, 2, 3),
@@ -449,16 +450,16 @@ PROGRAM:
 	echo "nomor kamar temanmu: " . $matriks[2][0] . "<br>";
 ```
 
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/multidimensi.png)
-ANALISIS:
+#### ANALISIS:
 1. Masing-masing mewakili nomor kamar. Setiap baris mewakili nomor kamar dari kiri ke kanan.
 2. program mengakses dan mencetak nilai dari dua elemen matriks menggunakan nomor. `$matriks[1][2]` digunakan untuk menampilkan nomor kamar di baris kedua dan kolom ketiga (indeks dimulai dari 0), sedangkan `$matriks[2][0]` digunakan untuk mencetak nomor kamar di baris ketiga dan kolom pertama.
 KESIMPULAN:
 Program ini memberikan contoh sederhana penggunaan array multidimensi dalam PHP. Ini mengilustrasikan bagaimana kita dapat menggunakan array multidimensi untuk menyimpan dan mengakses data yang lebih kompleks dengan cara yang terstruktur dan mudah dipahami.
 ## Var_Dump
 Fungsi `var_dump()` adalah fungsi bawaan PHP yang digunakan untuk menampilkan informasi rinci tentang satu atau lebih variabel, termasuk tipe data dan nilai variabel tersebut. Ini sering digunakan untuk debugging dan pengembangan kode, karena memberikan informasi yang lebih lengkap tentang variabel daripada fungsi `echo` atau `print_r()`.
-
+#### STRUKTUR
 ```php
 $nama = "hayril";
 $umur = 17;
@@ -472,12 +473,12 @@ var_dump($kosong);
 
 ```
 
-ANALISIS:
+#### ANALISIS:
 1. **Penggunaan Fungsi var_dump()**: Program menggunakan fungsi var_dump() untuk menampilkan informasi rinci tentang beberapa variabel. Variabel yang ditampilkan meliputi string, integer, array, dan variabel null.
 2. **Informasi yang Disajikan**: var_dump() memberikan informasi yang lebih lengkap tentang setiap variabel. Ini mencakup tipe data variabel (seperti string, integer, atau array) dan nilai yang terkait dengannya. Misalnya, untuk array, var_dump() juga menampilkan jumlah elemen dalam array.
 3. **Keuntungan untuk Debugging**: var_dump() sangat berguna untuk debugging karena memberikan informasi yang lebih rinci tentang variabel daripada metode pencetakan biasa seperti echo atau print_r(). Dengan var_dump(), pengembang dapat dengan cepat melihat tipe data dan nilai variabel dalam kode mereka.
 
-KESIMPULAN:
+#### KESIMPULAN:
 Penggunaan var_dump() dalam program memberikan informasi yang penting dan rinci tentang variabel yang ditampilkan. Dengan menyediakan tipe data dan nilai variabel, serta informasi tambahan seperti panjang string atau jumlah elemen dalam array, var_dump() memungkinkan pengembang untuk dengan cepat memahami struktur dan isi variabel dalam kode mereka.
  
 
@@ -486,14 +487,13 @@ Pengulangan dalam PHP adalah proses yang memungkinkan Anda untuk menjalankan ser
 ### For
 Pengulangan for memungkinkan Anda untuk mengeksekusi serangkaian pernyataan berdasarkan sejumlah iterasi tertentu.
 
-STRUKTUR:
+#### STRUKTUR:
 ```PHP
 for (inisalisasi; kondisi; kenaikan/pengurangan) {
     // pernyataan yang akan dieksekusi selama kondisi bernilai true
 }
 ```
-
-PROGRAM:
+#### PROGRAM:
 ```php
 
 // Mencetak angka 1 sampai 5 menggunakan perulangan for
@@ -503,27 +503,27 @@ for ($hayril = 1; $hayril <= 5; $hayril++) {
 ?>
 ```
 
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/for.png)
-ANALISIS:
+#### ANALISIS:
 1. **Inisialisasi Variabel**: Pada awal loop, variabel `$hayril` diinisialisasi dengan nilai 1 (`$hayril = 1`).
 2. **Kondisi**: Kondisi loop (`$hayril <= 5`) diuji sebelum setiap iterasi. Jika kondisinya benar, iterasi dilanjutkan. Jika tidak, loop berakhir.
 3. **Pernyataan Increment**: Setiap kali iterasi selesai dieksekusi, nilai variabel `$hayril` ditingkatkan satu unit (`$hayril++`). Ini memastikan bahwa loop berjalan hingga mencapai batas yang diinginkan.
 4. **Pernyataan dalam Blok for**: Pada setiap iterasi, pernyataan dalam blok for (dalam hal ini, pernyataan `echo`) dieksekusi. Ini akan mencetak nilai variabel `$hayril`.
-KESIMPULAN:
+#### KESIMPULAN:
 Program ini menggunakan pengulangan for untuk mencetak angka dari 1 hingga 5. Dengan menggunakan inisialisasi, kondisi, dan pernyataan increment, loop berjalan sesuai yang diharapkan.
 
 ### While
 while adalah salah satu dari beberapa  pengulangan (looping) yang tersedia. Ini digunakan untuk melakukan pengulangan berulang kali selama kondisi tertentu bernilai true
 
-STRUKTUR:
+#### STRUKTUR:
 ```php
 while (kondisi) {
     // kode yang akan dijalankan berulang kali selama kondisi bernilai true
 }
 ```
 
-PROGRAM:
+#### PROGRAM:
 ```php
 $hayril = 1;
 
@@ -533,26 +533,26 @@ while ($hayril <= 10) {
 }
 ```
 
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/while.png)
-ANALISIS:
+#### ANALISIS:
 1. Langkah pertama adalah menginisialisasi variabel `$hayril` dengan nilai 1. Ini adalah langkah awal sebelum memasuki loop.
 2.  Setelah variabel diinisialisasi, kondisi dalam pernyataan `while` dievaluasi. Pada kasus ini, kondisinya adalah `$hayril <= 10`. Ini berarti loop akan terus berjalan selama nilai `$hayril` tidak melebihi 10.
 3. Jika kondisi dalam pernyataan `while` adalah true, maka blok kode di dalamnya dieksekusi. Dalam contoh ini, kode yang dieksekusi adalah mencetak nilai variabel `$hayril` diikuti oleh spasi.
 4.  Setelah blok kode dieksekusi, variabel yang mengontrol iterasi (dalam hal ini, `$hayril`) diupdate. Dalam contoh ini, variabel `$hayril` ditambah satu setiap kali loop dieksekusi, dengan `$hayril++`.
 5.  Setelah variabel kontrol diperbarui, kondisi dalam pernyataan `while` diperiksa lagi. Jika kondisi masih bernilai true, maka langkah 3 dan 4 diulangi. Jika kondisi menjadi false, maka eksekusi keluar dari loop.
-KESIMPULAN:
+#### KESIMPULAN:
 Penggunaan `while` sangat berguna ketika Anda perlu melakukan iterasi berulang kali berdasarkan kondisi tertentu. Ini memungkinkan untuk menjalankan blok kode berulang kali selama kondisi yang ditentukan tetap benar. Penting untuk memastikan bahwa kondisi akan berubah di setiap iterasi untuk menghindari perulangan tak terbatas.
 ### Do-While
 do-while adalah struktur pengulangan (looping) yang serupa dengan `while`, tetapi dengan perbedaan bahwa blok kode di dalamnya akan dieksekusi setidaknya satu kali, bahkan jika kondisinya tidak terpenuhi.
 
-STRUKTUR:
+#### STRUKTUR:
 ```php
 do {
     // kode yang akan dijalankan setidaknya sekali
 } while (kondisi);
 ```
-PROGRAM:
+#### PROGRAM:
 ```php
 $hayril = 1;
 do {
@@ -560,24 +560,24 @@ do {
     $hayril++;
 } while ($hayril <= 10);
 ```
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/dowhile.png)
-ANALISIS:
+#### ANALISIS:
 1. **Inisialisasi variabel**: Langkah pertama adalah menginisialisasi variabel `$hayril` dengan nilai 1.
 2. **Eksekusi blok kode**: Blok kode di dalam `do` dieksekusi terlebih dahulu tanpa memeriksa kondisi. Dalam kasus ini, kode akan mencetak nilai dari variabel `$hayril` (dimulai dari 1) diikuti oleh spasi.
 3. **Update variabel kontrol**: Setelah blok kode dieksekusi, variabel kontrol iterasi (dalam hal ini, `$hayril`) ditingkatkan dengan `$hayril++`. Ini berarti nilai `$hayril` akan bertambah satu setiap kali blok kode di dalam `do` dieksekusi.
 4. **Evaluasi kondisi**: Setelah variabel kontrol diperbarui, kondisi dalam pernyataan `while` dievaluasi. Dalam contoh ini, kondisinya adalah `$hayril <= 10`, yang berarti loop akan terus berlanjut selama nilai `$hayril` kurang dari atau sama dengan 10.
 5. **Keluar dari loop**: Jika kondisi dalam pernyataan `while` tidak lagi bernilai true, maka eksekusi keluar dari loop.
-KESIMPULAN:
+#### KESIMPULAN:
 Kode di atas mencetak angka dari 1 hingga 10 menggunakan perulangan `do-while`. Karena `do-while` mengeksekusi blok kode minimal satu kali sebelum memeriksa kondisi, angka 1 akan dicetak terlebih dahulu, dan kemudian nilai `$hayril` akan ditingkatkan. Iterasi akan terus berlanjut hingga nilai `$hayril` mencapai atau melampaui 10. Kode ini akan mencetak angka dari 1 hingga 10 secara berurutan dengan spasi di antara setiap angka.
 ### Foreach
 foreach adalah struktur pengulangan (looping) yang digunakan khusus untuk melakukan iterasi melalui setiap elemen dalam array atau objek.
 
-STRUKTUR:
+#### STRUKTUR:
 ```php
 `foreach ($array as $kunci => $nilai) {     // kode yang akan dieksekusi untuk setiap kunci dan nilai dalam array }`
 ```
-PROGRAM:
+#### PROGRAM:
 ```php
 $colors = array("merah", "hijau", "biru", "kuning");
 
@@ -585,9 +585,9 @@ foreach ($colors as $color) {
     echo $color . " ";
 }
 ```
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/foreach.png)
-ANALISIS:
+#### ANALISIS:
 1. **Inisialisasi Array**: Array `$colors` diinisialisasi dengan beberapa nilai warna.
 2. **Pengulangan dengan `foreach`**: Perulangan `foreach` digunakan untuk mengiterasi melalui setiap elemen dalam array `$colors`.
 3. **Eksekusi Blok Kode**: Pada setiap iterasi, nilai elemen saat ini disimpan dalam variabel `$color`.
@@ -598,7 +598,7 @@ Program di atas adalah contoh sederhana penggunaan `foreach` dalam PHP untuk men
 ## Function
 function (fungsi) adalah sekelompok perintah yang dapat diberi nama dan dipanggil dari bagian lain dalam kode. Fungsi digunakan untuk melakukan tugas tertentu dan dapat dikirimkan parameter (masukan) dan mengembalikan nilai (keluaran). Fungsi membantu dalam memecah kode menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola, serta mengurangi duplikasi kode.
 
-STRUKTUR :
+#### STRUKTUR :
 ```PHP
 
 function namaFungsi() {
@@ -607,7 +607,7 @@ function namaFungsi() {
 }
 ```
 
-CONTOH:
+#### CONTOH:
 ```PHP
 
 function hitungLuasPersegiPanjang($panjang, $lebar) {
@@ -622,17 +622,17 @@ echo "Luas persegi panjang dengan panjang $panjang dan lebar $lebar adalah $luas
 
 ```
 
-HASIL:
+#### HASIL:
 ![GAMBAR](GAMBARPHP/functionphp.png)
 
-ANALISIS:
+#### ANALISIS:
 - Fungsi `hitungLuasPersegiPanjang` didefinisikan dengan dua parameter: `$panjang` dan `$lebar`.
 - Fungsi ini menghitung luas dengan mengalikan panjang dan lebar, kemudian mengembalikan hasilnya.
 - Variabel `$panjang` dan `$lebar` diinisialisasi dengan nilai 10 dan 5.
 - Fungsi `hitungLuasPersegiPanjang` dipanggil dengan parameter tersebut, dan hasilnya disimpan dalam variabel `$luasPersegiPanjang`.
 - Hasil perhitungan ditampilkan menggunakan `echo`, dengan memanfaatkan interpolasi variabel dalam string untuk menyisipkan nilai panjang, lebar, dan luas.
 
-KESIMPULAN:
+#### KESIMPULAN:
 - **Modularitas**: Fungsi `hitungLuasPersegiPanjang` memisahkan logika perhitungan dari bagian lain program, membuat kode lebih terstruktur dan modular.
 - **Reusability**: Fungsi ini dapat dipanggil dengan berbagai nilai panjang dan lebar tanpa perlu menduplikasi kode perhitungan luas di beberapa tempat.
 - **Maintainability**: Jika ada perubahan dalam cara menghitung luas, kita hanya perlu mengubah kode di dalam fungsi, bukan di seluruh program.
@@ -641,7 +641,7 @@ KESIMPULAN:
 
 #### Form Get 
 
-PROGRAM FROM GET:
+##### PROGRAM FROM GET:
 ```PHP
 <!DOCTYPE html>
 <html lang="en">
@@ -659,19 +659,19 @@ PROGRAM FROM GET:
 </html>
 ```
 
-HASIL FORM GET:
+##### HASIL FORM GET:
 ![GAMBAR](GAMBARPHP/formget.png)
 
-ANALISA:
+##### ANALISA:
 - (`<input type="text" name="nama" placeholder="Masukkan nama">`) adalah sebuah program untuk memasukkan sebuah inputan berupa text untuk menginput nama.
 - (`<input type="number" name="umur" placeholder="Masukkan umur">`).  adalah sebuah program untuk memasukkan sebuah inputan berupa angka untuk menginput umur.
 - `<form>` menentukan file PHP yang akan menerima data dari formulir ini. Dalam kasus ini, data akan dikirimkan ke "proses_get.php".
 
-KESIMPULAN:
+##### KESIMPULAN:
 Program tersebut adalah sebuah formulir HTML sederhana yang mengumpulkan data nama dan umur dari pengguna.Data yang dikumpulkan akan dikirimkan ke file PHP "proses_get.php" menggunakan metode GET.
 
 #### Proses Get
-PROGRAM PROSES GET:
+##### PROGRAM PROSES GET:
 ```PHP
 // Key dari array-nya, sesuai dengan nama dari atribut name di setiap input-nya
 $nama = $_GET["nama"];
@@ -695,21 +695,21 @@ $umur = $_GET["umur"];
 </html>
 ```
 
-HASIL PROSES GET:
+##### HASIL PROSES GET:
 ![GAMBAR](GAMBARPHP/prosesget.png)
 
-ANALISA:
+##### ANALISA:
 - `$nama`  `$umur` sebagai variabel , program ini mengambil data "nama" dan "umur"  yang dikirimkan melalui URL sebagai bagian dari query string dan menyimpan nya kedalam variabel nama dan umur.
 - `$_GET` mengambil Data yang dikirimkan melalui URL dengan metode GET.
 - `<?= $nama ?>` dan `<?= $umur ?>` digunakan untuk menampilkan nilai variabel tersebut langsung dalam HTML tanpa menggunakan fungsi `echo`.
 - `<meta charset="UTF-8">` digunakan untuk menentukan karakter set halaman web sebagai UTF-8, yang memastikan bahwa karakter Unicode dapat ditampilkan dengan benar.
 
-KESIMPULAN:
+##### KESIMPULAN:
 Program ini adalah penggunaan PHP untuk memproses data formulir HTML yang dikirim melalui URL dengan metode GET.(program ini memproses data yang dijalakan pada program get dan menampilkan hasilnya).
 
 #### Form posh
 
-PROGRAM FORM POSH:
+##### PROGRAM FORM POSH:
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -728,20 +728,20 @@ PROGRAM FORM POSH:
 </html>
 ```
 
-HASIL FROM POSH:
+##### HASIL FROM POSH:
 ![gambar](GAMBARPHP/formposh.png)
 
-ANALISA:
+##### ANALISA:
 - `<form action="proses_posh.php" method="POST">`: Ini adalah tag pembuka untuk formulir. Atribut `action` menentukan lokasi file PHP yang akan menerima data dari formulir ini. Metode `POST` menentukan cara pengiriman data.
 - `<input type="text" name="nama_lengkap" placeholder="Masukkan nama">`: Ini adalah input teks untuk memasukkan nama lengkap pengguna. Atribut `name` akan digunakan sebagai kunci untuk mengakses nilai di file PHP yang ditentukan dalam atribut `action`.
 - - `<input type="number" name="umur" placeholder="Masukkan umur">`: Ini adalah input angka untuk memasukkan umur pengguna.
 - `<input type="password" name="password" placeholder="Masukkan password">`: Ini adalah input sandi untuk memasukkan kata sandi pengguna. Jenis input ini akan menyembunyikan teks yang dimasukkan.
 - `<button type="submit">Kirim</button>`: Ini adalah tombol yang akan digunakan pengguna untuk mengirimkan formulir. Ketika tombol ini ditekan, data akan dikirimkan ke lokasi yang ditentukan dalam atribut `action`.
 
-KESIMPULAN:
+##### KESIMPULAN:
 Program tersebut adalah sebuah formulir HTML menggunakan metode posh yang meminta pengguna untuk memasukkan beberapa informasi, seperti nama lengkap, umur, dan password.Program ini bertujuan untuk mengumpulkan informasi yang dimasukkan oleh pengguna dan mengirimkannya ke server untuk diproses lebih lanjut.
 
-PROGRAM PROSES POSH:
+##### PROGRAM PROSES POSH:
 ```PHP
 <?php
 // Key dari array-nya, sesuai dengan nama dari atribut name di setiap input-nya
@@ -762,10 +762,10 @@ var_dump($_POST);
 </html>
 ```
 
-HASIL PROSES POSH:
+##### HASIL PROSES POSH:
 ![GAMBAR](GAMBARPHP/prosesposh.png)
 
-ANALISA:
+##### ANALISA:
 - `$nama = $_POST["nama"];`: Baris ini mengambil nilai yang dikirimkan melalui formulir dengan inisialisasi "nama" menggunakan metode POST dan menyimpannya dalam variabel `$nama.
 - `$umur = $_POST["umur"];`: Baris ini mengambil nilai yang dikirimkan melalui formulir dengan insialisasi "umur" menggunakan metode POST dan menyimpannya dalam variabel `$umur`.
 - `var_dump($_POST);`: Fungsi `var_dump()` digunakan untuk menampilkan informasi terstruktur tentang variabel atau ekspresi, dalam hal ini, isi dari array `$_POST`.
@@ -773,7 +773,7 @@ ANALISA:
 - `<p>Umur anda <?= $umur ?> tahun</p>`: Ini adalah paragraf yang menampilkan umur pengguna. Nilainya diambil dari variabel `$umur` yang sudah diambil dari array `$_POST`.
 - `<p>Password anda aman!</p>`: Paragraf ini adalah statis dan memberikan pesan umum tentang kata sandi.
 
-KESIMPULAN:
+##### KESIMPULAN:
 program menampilkan kembali informasi yang dimasukkan oleh pengguna sebelumya pada program form posh, seperti nama lengkap dan umur, di halaman web menggunakan tag HTML. Pesan "Password anda aman!" ditampilkan secara statis. Jadi, tujuan utama dari program ini adalah untuk menampilkan kembali data yang dikirimkan oleh pengguna.
 
 # Koneksi Database

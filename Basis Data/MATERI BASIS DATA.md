@@ -9,8 +9,7 @@ m
 # Struktur Basis Data
 
 Basis data di ibaratkan sebuah tabung yang didalamnya dapat mengolah sebuah file file dan juga tabel.pada gambar berikut terdapat ilustrasi dari basis data tersebut.
-
-![Basis data](GAMBARBASDAT/basdat.jpeg)
+![Basis Data](GAMBARBASDAT/basdat.jpg)
 
 Dalam basis data terdapat juga yang dinamakan tabel,pada gambar di atas telah ditampilkan gambar tabel beserta struktur-struktur nya.
 
@@ -48,25 +47,25 @@ berikut adalah tampilan sheel yang harus dimasuki
 setelah pembuatan database telah selesai,kita dapat menerapkan mysql dengann menggunakan fitur adalah membuat,menghapus,melihat,dan menggunakan database.
 
 - **Membuat Database**,dalam pembuatan database pada mysql,di awali dengan menggunakan query `CRATE DATABASE [NAMA DATABASE]` setelah pengetikan query database akan terbuat.
-CONTOH GAMBAR:
+### CONTOH GAMBAR:
 ![gambar](membuatdb.png)
 a.Pada tabel pertama merupakan tampilan pertama tabel berisikan nama nama-nama database sebelum membuat database yang baru
 b.Pada bagian yang diblok pada gambar adalah sebuah perintah dengan *query* `create database rayhanbatman;` sebagai perintah mysql untuk membuat sebuah database dengan nama `rayhanbatman` pada mysql.
 c. pada tabel kedua merupakan tampilan tabel yang telah berhasil membuat database dengan nama `rayhanbatman`. 
 
 - **Menghapus Database**, dalam peghapusan database pada mysql,diawali dengan meggunakan query `DROP DATABASE[NAMA DATABASE]` maka mysql akan melakukan penghapusan Database setelah perintah query ini.
-CONTOH GAMBAR:
+### CONTOH GAMBAR:
 ![gambar](menghapusdb.png)
 a.Pada tabel pertama merupakan tampilan pertama tabel berisikan nama nama database sebelum menghapus database dengan nama `rayhanbatman` 
 b.Pada bagian yang diblok pada gambar adalah sebuah perintah dengan *query* `drop database rayhanbatman;` sebagai perintah mysql untuk menghapus sebuah database dengan nama `rayhanbatman` pada mysql.
 c. pada tabel kedua merupakan tampilan tabel yang telah berhasil mengahapus database dengan nama `rayhanbatman`. 
 
 - **Menampilkan Database**,dalam peritah menampilan database pada mysql,diawali dengan query `SHOW DATABASES;` maka perintah mysql akan menampilkan Databases setelah perintah query.
-CONTOH GAMBAR:
+### CONTOH GAMBAR:
 ![GAMBAR](membuatdb.png)
 pada gambar di atas menampilkan tabel yang telah ditampilkan setelah melakukan perintah mysql dengan menggunakan *query*  `SHOW DATABASES;` maka akan ditampilkan beberapa nama-nama database pada mysql.
 - **Menggunakan Database**,dalam perintah menggunakan database pada mysql,maka perintahnya menggunakan query `USE[NAMA_DATABASE]`
-CONTOH GAMBAR:
+### CONTOH GAMBAR:
 ![GAMBAR](use.png)
 pada gambar di atas tertampilkan bahwa *query* `MariaDB [("none")]`adalah database yang sedang digunakan,kemudian setelah melakukan perintah dengan *query* `use XI_RPL_1` maka pada tampilan yang diblok dengan *query*`MariaDB [XI_RPL_1]>` menandakan bawa user telah berada pada database `XI_RPL_1`
 
@@ -155,20 +154,21 @@ CONTOH:
 # SELECT
 ## SELECT SELURUH DATA
 
-STRUKTUR
+### STRUKTUR
 ```MYSQL
 SELECT * FROM [nama_table];
 ```
 
-CONTOH:
+### CONTOH:
 
 ```MYSQL
 SELECT * FROM pelanggan;
 ```
 
+### HASIL
 ![GAMBAR](GAMBARBASDAT/select.png)
 
-ANALISA:
+### ANALISA:
 - `SELECT` perintah untuk menampilkan data.
 - `*` adalah perintah untuk keseluruhan.
 - `from` adalah perintah untuk pemanggilan dari tabel.
@@ -178,174 +178,174 @@ KESIMPULAN:
 
 ## SELECT menyebutkan kolom 
 
-STRUKTUR
+### STRUKTUR
 ```MYSQL
 SELECT [nama_kolom] from [nama_table];
 ```
 
-CONTOH
+### CONTOH
 ```MYSQL 
 SELECT nama_depan from pelanggan;
 ```
 
 ![GAMABAR](GAMBARBASDAT/selecttertentu.png)
-ANALISA:
+### ANALISA:
 -  `SELECT` perintah untuk menampilkan data.
 - `nama_depan` adalah nama dari salah satu kolom pada tabel
 - `from` adalah perintah untuk pemanggilan dari tabel.
 - `pelanggan` berfungsi untuk sebagai nama tabel yang dipanggil. 
 
-KESIMPULAN:
+### KESIMPULAN:
 - SELECT nama_depan FROM pelanggan; adalah query perintah untuk menampilkan seluruh data tabel pada kolom nama depan  .
 ## KLAUSA WHERE
 
-STRUKTUR 
+### STRUKTUR 
 ```MYSQL
 SELECT [nama_kolom/] from [nama_table] where [kondisi];
 ```
 
-CONTOH
+### CONTOH
 ```MYSQL
 SELECT nama_depan from pelanggan where ID=104;
 ```
 
+### HASIL
 ![GAMBAR](GAMBARBASDAT/where.png)
-ANALISA:
+### ANALISA:
 -  `SELECT` perintah untuk menampilkan data.
 - `nama_depan` adalah salah satu nama kolom pada tabel.
 - `from` adalah perintah untuk pemanggilan dari tabel.
 - `pelanggan` sebagai nama tabel yang ditujukan.
 - `where` perintah yang berfungsi menentukan letak data yang dipilih.
 - `ID=104`adalah letak data yang ingin di tampilkan.
-KESIMPULAN:
+### KESIMPULAN:
 - SELECT nama_depan from pelanggan where ID=104; adalah query perintah untuk menampilkan data tabel pada kolom nama depan pada data yang id 104.
 
 # UPDATE 
 
-STRUKTUR:
+### STRUKTUR:
 ```MYSQL 
 update [nama_tabel] set [nama_kolom]="data yang diubah" where kodisi;
 ```
 
-CONTOH
+### CONTOH
 ```MYSQL
 update pelanggan set nama_depan="latto" where id=101;
 ```
 
+### HASIL
 ![GAMBAR](GAMBARBASDAT/update.png)
 
-ANALISA:
+### ANALISA:
 - `update` adalah perintah query untuk melakukan update atau pembaharuan data.
 - `pelanggan` sebagai nama tabel yang dipanggil. 
 - `set` adalah perintah untuk setting 
 - `nama_depan` adalah sebagai nama kolom.
 - `where` perintah yang berfungsi menentukan letak data yang dipilih.
 - `ID=104`adalah letak data yang ingin dipilih.
-KESIMPULAN:
+### KESIMPULAN:
 - Update pelanggan set nama_depan="latto" where id=101; adalah perintah untuk memperbaharui data ber-id=101 pada kolom nama_depan dengan data yang baru berupa "latto".
 # DELETE 
 
-STRUKTUR:
-
+### STRUKTUR:
 ```MYSQL
  delete from pelanggan where kondisi;
 ```
-
-CONTOH:
+### CONTOH:
 ```MYSQL 
  delete from pelanggan where id=101;
 ```
-
+### HASIL
 ![GAMBAR](GAMBARBASDAT/delete.png)
-ANALISA:
+### ANALISA:
 - `DELETE` adalah perintah query yang befungsi untuk menghapus data;
 - `from` adalah perintah untuk pemanggilan dari tabel.
 - `pelanggan` sebagai nama tabel yang ditujukan.
 -  `where` perintah yang berfungsi menentukan letak data yang dipilih.
 - `ID=101`adalah letak data yang ingin dipilih.
-KESIMPULAN:
+### KESIMPULAN:
 -  delete from pelanggan where id=101; adalah perintah query untuk menghapus seluruh data yang ber-id=101. 
 # HAPUS TABEL
 
-STRUKTUR:
+### STRUKTUR:
 ```MYSQL
 DROP TABLE [nama_table];
 ```
 
-CONTOH:
+### CONTOH:
 ```MYSQL
 DROP TABLE pelanggan;
 ```
 
 ![GAMBAR](GAMBARBASDAT/drop.png)
 
-ANALISA:
+### ANALISA:
 - `DROP TABLE` adalah perintah untuk menghapus.
 - `pelanggan` adalah sebuah nama tabel.
-KESIMPULAN:
+### KESIMPULAN:
 - DROP TABLE pelanggan; adalah sebuah perintah untuk menghapus sebuah tabel yang bernamakan **pelanggan**.
 # SELECT LANJUTAN 
 ## AND 
 select AND ini akan menampilkan data dengan  "nilai1" dan "nilai2".
-CONTOH:
+### CONTOH:
 ```MYSQL
  select warna,pemilik FROM mobil WHERE warna="hitam" AND pemilik="ibrahim";
 ```
-
+### HASIL
 ![GAMBAR](GAMBARBASDAT/and.png)
 
 ## OR 
 select OR ini akan menampilkan data dengan  "nilai1"  atau "nilai2".
-CONTOH:
+### CONTOH:
 ```MYSQL
  select warna,pemilik FROM mobil WHERE warna="hitam" OR pemilik="ibrahim";
 ```
 
-
+### HASIL
 ![GAMBAR](GAMBARBASDAT/OR.PNG)
 
 ##  BETWEEN- AND
 select between-and ini akan menampilkan data antara "nilai1" dan "nilai2".karena didukung dengan AND.
-CONTOH:
+### CONTOH:
 ```MySQL
  select * FROM mobil WHERE harga_rental BETWEEN 100000 AND 200000;
 ```
-
+### HASIL
 ![GAMBAR](GAMBARBASDAT/BETWEENAND.png)
 
 ## NOT BETWEEN 
 untuk NOT BETWEEN ini akan menampilkan  yang bukan antara "nilai1" dan "nilai2".
-CONTOH:
+### CONTOH:
 ```MYSQL
 SELECT * FROM mobil WHERE harga_rental NOT BETWEEN 100000 AND 200000;
 ```
-
+### HASIL
 ![gambar](GAMBARBASDAT/notbetween.png)
 ## <= 
 untuk **<=** ini akan menampilkan **"data"** yang lebih kecil atau sama dengan **"nilai_data** yang telah ditentukan.
-CONTOH:
+### CONTOH:
 ```mysql 
 SELECT * FROM mobil WHERE harga_rental <= 50000;
 ```
-
+### HASIL
 ![gambar](GAMBARBASDAT/kecilsama.png)
 
 ## >= 
 untuk **>=** ini akan menampilkan **"data"** yang lebih besar atau sama dengan **"nilai_data** yang telah ditentukan.
-CONTOH:
+### CONTOH:
 ```mysql
 SELECT * FROM mobil WHERE harga_rental >= 50000;
 ```
-
+### HASIL
 ![gambar](GAMBARBASDAT/besarsama.png)
 
 ## <> atau != 
 untuk **<>atau !=** ini akan menampilkan **"data"** yang tidak  sama dengan **"nilai_data** yang telah ditentukan.
-CONTOH:
+### CONTOH:
 ```mysql
 SELECT * FROM mobil WHERE harga_rental <> 50000;
 ```
-
+### HASIL
 ![gambar](GAMBARBASDAT/tidaksama.png)
 
 

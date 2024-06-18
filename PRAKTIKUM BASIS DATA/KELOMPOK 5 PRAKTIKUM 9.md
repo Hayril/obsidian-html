@@ -1,3 +1,7 @@
+## tabel orders
+![](img/zz1.jpg)
+## tabel employees
+![](img/zz2.jpg)
 # nomor 1
 ## Query
 ```mysql
@@ -12,10 +16,6 @@ FROM orders WHERE EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret'
 - `FROM orders` : untuk memilih dari tabel mana kolom tersebut dipilih. `orders` adalah nama dari tabel yang dipilih
 - `EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret')` : merupakan kondisi dari WHERE yang harus dipenuhi.
 - HASILNYA : jadi dalam query ada subquery ya itu pada bagian kondisi `WHERE` ada lagi `SELECT` yang kedua, dalam situ dia memilih kolom `EmpID` dari tabel `Employees` yang kolom `FirstName` nya berisi `Margaret`. Kondisinya ada lah mereka hanya menampilkan data yang kolom `EmpID` nya memiliki data yang sama dengan kolom `EmpID` pada tabel `Employees` yang kolom `FirstName` nya `Margaret`. Iya itu 5. Jadi barisan data yang memiliki `EmpID` 5 yang akan ditampilkan yaitu barisan data `EASTC` , `SEVES` , `MAISD` , `ALFKI` , dan `ISLAT`
-## tabel orders
-![](img/zz1.jpg)
-## tabel employees
-![](img/zz2.jpg)
 
 #  NOMOR 2-4 
 ## 2.QUERY:
@@ -72,11 +72,6 @@ select * from employes where salary > SOME (select salary from employes where ti
 
 ## KESIMPULAN:
 QUERY diatas adalah perintah untuk menampilkan secara keseluruhan, query ini akan menghasilkan baris-baris dari tabel "employes" di mana gaji setiap karyawan lebih besar dari setidaknya satu gaji karyawan dengan jabatan "sales rep."
-
-## tabel orders
-![](img/zz1.jpg)
-## tabel employees
-![](Img/zz2.jpg)
 
 # Nomor 5-6
 
