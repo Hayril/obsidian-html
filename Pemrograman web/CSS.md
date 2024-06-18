@@ -512,8 +512,11 @@ CONTOH PROGRAM:
 
 HASIL:
 ==**BEFORE**==
+
 ![GAMBAR](GAMBAR/beforetransfrom.png)
+
 ==**AFTER**==
+
 ![GAMBAR](GAMBAR/aftertransfrom.png)
 
 ## TEXT INDENT
