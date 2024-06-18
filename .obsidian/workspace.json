@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pemrograman web/MATERI PEMROGWEB.md",
+                "file": "Pemrograman web/CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN.md",
+                "file": "PRAKTIKUM BASIS DATA/KELOMPOK 5 PRAKTIKUM 9.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN.md",
+                "file": "PRAKTIKUM BASIS DATA/KELOMPOK 5 PRAKTIKUM 9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN.md",
+                "file": "PRAKTIKUM BASIS DATA/KELOMPOK 5 PRAKTIKUM 9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN.md"
+                "file": "PRAKTIKUM BASIS DATA/KELOMPOK 5 PRAKTIKUM 9.md"
               }
             }
           }
@@ -209,28 +209,32 @@
   },
   "active": "f242f44d82a742e4",
   "lastOpenFiles": [
+    "PRAKTIKUM BASIS DATA/IMG/zz3.jpg",
+    "PRAKTIKUM BASIS DATA/IMG/zz2.jpg",
+    "PRAKTIKUM BASIS DATA/IMG/zz1.jpg",
+    "PRAKTIKUM BASIS DATA/IMG/tabelorders.png",
+    "PRAKTIKUM BASIS DATA/IMG/nomor6.png",
+    "PRAKTIKUM BASIS DATA/IMG/nomor5.png",
+    "PRAKTIKUM BASIS DATA/IMG/nomor4.png",
+    "PRAKTIKUM BASIS DATA/IMG/nomor3.png",
+    "PRAKTIKUM BASIS DATA/IMG/nomor2.png",
+    "PRAKTIKUM BASIS DATA/IMG",
+    "PRAKTIKUM BASIS DATA/PRAKTIKUM BASIS DATA/KELOMPOK 5 PRAKTIKUM 9.md",
+    "PRAKTIKUM BASIS DATA/KELOMPOK 5 PRAKTIKUM 9.md",
+    "Pemrograman web/CSS.md",
+    "Pemrograman web/HTML.md",
     "Pemrograman web/PENGUMPULAN 1.md",
-    "Pemrograman web/MATERI PEMROGWEB.md",
+    "Pemrograman web/PEMBELAJARAN 1.md",
+    "Basis Data/SELECT LANJUTAN.md",
     "Pemrograman web/assetsresponsive/responsive-1.png",
     "Pemrograman web/assetsresponsive/res-3.png",
-    "Pemrograman web/assetsresponsive/res-2.png",
     "Pemrograman web/assetsresponsive",
-    "Pemrograman web/PEMBELAJARAN 1.md",
     "phpmyadmin/php Dasar.md",
     "responsive/RESPONSIVEUntitled.md",
-    "responsive/assetsresponsive/responsive-1.png",
     "Basis Data/ALTER.md",
-    "Basis Data/SELECT LANJUTAN.md",
     "Basis Data/MATERI BASIS DATA.md",
-    "Basis Data/GAMBARBASDAT/basdat.jpg",
-    "Basis Data/GAMBARBASDAT/SUM.png",
-    "Basis Data/GAMBARBASDAT/strukturtabel.png",
-    "Basis Data/GAMBARBASDAT/strukturbasdat.jpg",
-    "Basis Data/GAMBARBASDAT/tantangan.png",
-    "Basis Data/GAMBARBASDAT/tantanganvirtual.png",
     "phpmyadmin/php mysql.md",
     "responsive/assetsresponsive",
-    "PRAKTIKUM BASIS DATA/KELOMPOK 5 PRAKTIKUM 9.md",
     "data data obsidian/themes/Spectrum/theme.css",
     "data data obsidian/themes/Spectrum/manifest.json",
     "data data obsidian/themes/PLN/theme.css",
@@ -238,7 +242,6 @@
     "data data obsidian/themes/Spectrum",
     "data data obsidian/themes/PLN",
     "data data obsidian/themes",
-    "data data obsidian/plugins/table-editor-obsidian/styles.css",
     "OBSIDIAN ASEK/Pemrograman web/PEMBELAJARAN 6.md",
     "OBSIDIAN ASEK/Pemrograman web/PEMBELAJARAN 5.md",
     "OBSIDIAN ASEK/Pemrograman web/PEMBELAJARAN 4.md",
@@ -251,8 +254,6 @@
     "OBSIDIAN ASEK/Basis Data/PEMBELAJARAN 2.md",
     "OBSIDIAN ASEK/Basis Data/PEMBELAJARAN 1.md",
     "CSS UNIT.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Basis Data/PEMBELAJARAN 1.md"
+    "Untitled 1.md"
   ]
 }

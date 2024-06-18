@@ -104,7 +104,7 @@ DESKRIPSI:
 
  Hasil program
 
-![asek](GAMBAR/IMG8.png)
+![Gambar](GAMBAR/IMG8.png)
 
 > [!INFO]-
 > Gambar dibawah ini adalah hasil jika mengklik link tersebut
@@ -283,7 +283,7 @@ HASIL PROGRAM:
 ## IFRAME
 pada *HTML* terdapat juga tag `<iframe>` yag berfungsi sebagai tag untuk penambahan tampilan web lain yang bisa diselipkan ke dalam web site yang kita buat tag `<iframe>` fungsinya sama dengan tag penambahan media lainnya. yang dimulai dengan tag `<iframe>` lalu dilanjutkan dengan tag `src` yang berperan sebagai *nama atribut* dan memasukkan link web yang ingin kita masukka seperti `"https://www.smkn7makassar.sch.id/"` sebagai *nilai atribut* dari pemanggilan tampilan web site, dan `width dan height` adalah sebagai pengatur ukuran dari tampilan web site yang ditambahkan.
 
-### PROGRAM:
+CONTOH PROGRAM:
 ```HTML
 <!DOCTYPE html>
 
@@ -299,7 +299,7 @@ pada *HTML* terdapat juga tag `<iframe>` yag berfungsi sebagai tag untuk penamba
 </html>
 ```
 
-### PROGRAM:
+HASIL PROGRAM:
 ![GAMBAR](GAMBAR/IMGb.png)
 # TABEL 
 pada *HTML* kita juga dapat membuat sebuah tabel,tabel tersebut berfungsi memberikan rangkuman data secara tersusun.
@@ -313,8 +313,10 @@ pada *HTML* kita juga dapat membuat sebuah tabel,tabel tersebut berfungsi member
 	- width berfungsi untuk mengatur lebar tabel yang nilainya didefinisikan dalam satuan pixel secara default
 	- height berfungsi untuk mengatur tinggi tabel yang nilainya didefinisikan dalam satuan pixel secara default.
 	- align berfungsi untuk mengatur perataan teks pada tabel. Nilai atribut yang tepat diberikan yaitu left untuk perataan teks ke kiri, right untuk perataan teks ke kanan, dan center untuk perataan teks ke tengah html.
-## PROGRAM:
-```HTML
+	
+	CONTOH PROGRAM:
+	```HTML
+	
  <table border="3">
     <tr>
         <th rowspan="2">Nama</th>
@@ -345,8 +347,8 @@ pada *HTML* kita juga dapat membuat sebuah tabel,tabel tersebut berfungsi member
    
    ```
 
-## HASIL :
-![GAMBAR|500](GAMBAR/IMGc.png)
+HASIL PROGRAM:
+![GAMBAR|500](IMGc.png)
 
 # FORM
 
@@ -362,6 +364,7 @@ Elemen `<input>` adalah elemen form yang paling penting. Elemen `<input>` dapat 
 
 - **password** digunakan untuk mengambil isian berupa kata sandi atau sesuatu yang bersifat rahasia. Tipe ini akan mengubah semua karakter yang diketikkan ke dalam karakter bulat.
 - **radio** digunakan sebagai kolom isian bertipe pilihan yang menawarkan beberapa opsi kepada user namun tetapi hanya satu opsi saja yang boleh dipilih. Contohnya seperti jenis kelamin atau agama.
+
 >[!info]
 Perlu diperhatikan bahwa untuk penggunaan tipe radio yang berkategori set pilihan yang sama mengharuskan nilai name -nya juga sama.
 
@@ -392,7 +395,7 @@ Beberapa atribut untuk tipe *number*:
 - **reset** berguna untuk mengembalikan state (keadaan) atau data dari suatu form ke nilai awalnya. Jika nilai awal sebuah input adalah kosong, maka ketika direset ia akan kembali kosong. Tapi jika nilai awalnya sudah terisi sesuatu, maka ketika direset datanya akan kembali seperti yang sudah diset sebelumnya.
 
 - **button** berguna untuk membuat inputan berupa sebuah tombol. Tombol ini nantinya bisa difungsikan sesuai dengan keinginan dari pengembang web. 
-## PROGRAM
+
 ```html
 <!DOCTYPE html>
 
@@ -475,13 +478,12 @@ Beberapa atribut untuk tipe *number*:
 </html>
 ```
 
-## HASIL :
+HASIL PROGRAM:
 
 ![GAMBAR](GAMBAR/FORM.png)
 # LABEL
 - Elemen label memiliki fungsi khusus untuk melabeli sebuah kolom inputan. Ketika screen reader membaca konten halaman HTML, lalu menemukan sebuah inputan, ia akan membaca label yang bersangkutan.
 - Fungsi lain dari tag `<label>` adalah ketika kita mengklik label, maka browser akan meletakkan fokus pada kolom isian yang terhubung dengannya. Syarat yang perlu diperhatikan yaitu dengan menghubungkan sebuah `<label>`dan `<input>` dengan atribut `<for>`untuk  `<label>`, dan atribut` <id>` pada  dengan nilai untuk kedua atribut tersebut mesti sama persis.
-## PROGRAM
 ```html
 <!DOCTYPE html>
 
@@ -499,13 +501,12 @@ Beberapa atribut untuk tipe *number*:
 </body>
 ```
 
-## HASIL:
-![GAMBAR](GAMBAR/LABEL.png)
+HASIL PROGRAM:
+![GAMBAR](GAMBAR/LABEL.PNG)
 # SELECT
 - Elemen `<select>` berguna dalam mendefinisikan sebuah tombol ==dropdown== yang dimana user dapat memilih salah satu dari banyak pilihan. 
 - `<aside>` Elemen `<select>` nantinya berperan sebagai kontainer atau pembungkus dari elemen `<option>` yang berperan sebagai daftar pilihan atau opsi `</aside>`
 - Elemen `<select>` hampir mirip fungsinya dengan `<input type=”radio">` akan tetapi baiknya elemen`<select> ` digunakan untuk memilih satu pilihan yang terdapat banyak opsi di dalamnya, sedangkan `<input type=”radio">` lebih baiknya untuk digunakan jika  user diarahkan memilih hanya satu pilihan yang opsi pilihannya tidak terlalu banyak. Contoh penggunaan elemen ini seperti memasukkan pilihan berupa asal daerah atau yang semisalnya.Penting untuk diketahui  bahwasanya opsi yang aktif secara default adalah adalah opsi yang pertama. Akan tetapi, kita bisa mengatur opsi mana yang aktif secara default dengan menambahkan atribut selected pada suatu `<option>` yang ingin dijadikan sebagai opsi default.
-## PROGRAM
 ```HTML
 <!DOCTYPE html>
 
@@ -540,11 +541,10 @@ Beberapa atribut untuk tipe *number*:
 </body>
 ```
 
-## HASIL :
-![GAMBAR](GAMBAR/SELECT.png)
+HASIL PROGRAM:
+![GAMBAR](GAMBAR/SELECT.PNG)
 # TEXT AREA
 - Elemen `<textarea>` berguna untuk mengambil inputan user berupa teks yang dapat memuat lebih dari satu baris. Jika dibandingkan dengan elemen `<input>` teks biasa, elemen `<textarea>` memiliki ukuran tinggi yang lebih besar. Element textarea bisa diisi lebih dari satu baris dengan menekan enter. Atribut yang dapat digunakan untuk mengatur kuran dari textarea yaitu rows untuk jumlah baris, sedangkan atribut cols untuk lebarnya.
-## PROGRAM
 ```html
 <!DOCTYPE html>
 
@@ -565,12 +565,12 @@ Beberapa atribut untuk tipe *number*:
 </html>
 ```
 
-## HASIL :
-![GAMBAR](GAMBAR/TEXTAREA.png)
+HASIL PROGRAM:
+![GAMBAR](GAMBAR/TEXTAREA.PNG)
 # BUTTON
 - Elemen `<button>` yang berada di dalam sebuah form akan otomatis dianggap sama fungsinya seperti `<input type="submit">`. Jika ingin membuat tombol biasa yang tidak men-submit `<form>` dapat dilakukan dengan menambahkan `atribut type="button"`.
 - Beberapa atribut yang digunakan pada contoh di atas yang perlu untuk diperjelas yaitu sebagai berikut:
-## PROGRAM
+
 ```html
 <!DOCTYPE html>
 
@@ -593,14 +593,14 @@ Beberapa atribut untuk tipe *number*:
 </html>
 ```
 
-## HASIL :
-![GAMBAR](GAMBAR/BUTTON.png)
+HASIL PROGRAM:
+![GAMBAR](GAMBAR/BUTTON.PNG)
 
 # PENGENALAN CSS
 
 ## Percobaan II
 
-### PROGRAM
+##  KODE CSS
 ```css
         <style>
        p{
@@ -623,17 +623,17 @@ Beberapa atribut untuk tipe *number*:
 ### Before
 ![GAMBAR](GAMBAR/before.png)
 ### After
-![GAMBAR](GAMBAR/front_size.png)
+![GAMBAR](front_size.png)
 ## Color
 ==**COLOR**== berfungsi sebagai perintah untuk membuat tulisan menjadi berwarna,seperti pada contoh berikut menggunakan perintah untuk mengubah warna tulisan tersebut.
 ### Before
 ![GAMBAR](GAMBAR/before1.png)
 ### After
-![GAMBAR](GAMBAR/COLOR.png)
+![GAMBAR](GAMBAR/color.PNG)
 ## Background-color
 ==**BACKGROUND - COLOR**== berfungsi sebagai perintah untuk membuat latar belakang tulisan menjadi berwarna,seperti pada contoh berikut menggunakan perintah untuk mengubah latar belakang tulisan.
 ### Before
-![GAMBAR](GAMBAR/COLOR.png)
+![GAMBAR](GAMBAR/color.PNG)
 ### After
 ![GAMBAR](GAMBAR/bgcolor.png)
 

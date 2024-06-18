@@ -22,8 +22,6 @@ FROM orders WHERE EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret'
 ![](IMG/zz1.jpg)
 ## tabel employees
 ![](IMG/zz2.jpg)
->>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
-
 #  NOMOR 2-4 
 ## 2.QUERY:
 ```MYSQL 
@@ -80,15 +78,6 @@ select * from employes where salary > SOME (select salary from employes where ti
 
 ## KESIMPULAN:
 QUERY diatas adalah perintah untuk menampilkan secara keseluruhan, query ini akan menghasilkan baris-baris dari tabel "employes" di mana gaji setiap karyawan lebih besar dari setidaknya satu gaji karyawan dengan jabatan "sales rep."
-
-<<<<<<< HEAD
-=======
-## tabel orders
-![](IMG/zz1.jpg)
-## tabel employees
-![](IMG/zz2.jpg)
-
->>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
 # Nomor 5-6
 
 ## 5.Query:
