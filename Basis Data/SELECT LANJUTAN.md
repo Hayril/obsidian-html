@@ -39,7 +39,7 @@ select [nama_kolom],[nama_kolom] FROM [nama_tabel] WHERE [nama_kolom]=["nama_dat
 ```
 
 ### HASIL:
-![GAMBAR](GAMBARBASDAT/OR.PNG)
+![GAMBAR](GAMBARBASDAT/or.png)
 ### ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **WARNA** adalah sebuah nama kolom pada tabel mobil.
