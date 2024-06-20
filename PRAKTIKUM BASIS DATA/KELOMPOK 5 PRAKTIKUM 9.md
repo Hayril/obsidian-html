@@ -1,7 +1,7 @@
 ## tabel orders
-![](img/zz1.jpg)
+![](IMG/zz1.jpg)
 ## tabel employees
-![](img/zz2.jpg)
+![](IMG/zz2.jpg)
 # nomor 1
 ## Query
 ```mysql
