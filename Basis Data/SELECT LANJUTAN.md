@@ -1175,4 +1175,4 @@ HAVING COUNT(id_mobil) > 1;
 
 ### Kesimpulan
 
-Query di atas adalah perintah untuk menghitung data terbesar dan terkecil kolom `harga_rental` dan mengelompokkan nya.
+Query di atas adalah perintah untuk menghitung data terbesar dan terkecil kolom `harga_rental` dan mengelompokkan kemudian membagi menjadi 2 kolom yaitu terbesar dan terkecil nya.
