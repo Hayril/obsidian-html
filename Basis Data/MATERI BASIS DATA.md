@@ -53,25 +53,28 @@ setelah pembuatan database telah selesai,kita dapat menerapkan mysql dengann men
 =======
 CONTOH GAMBAR:
 ![gambar](GAMBARBASDAT/membuatdb.png)
->>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
 a.Pada tabel pertama merupakan tampilan pertama tabel berisikan nama nama-nama database sebelum membuat database yang baru
+
 b.Pada bagian yang diblok pada gambar adalah sebuah perintah dengan *query* `create database rayhanbatman;` sebagai perintah mysql untuk membuat sebuah database dengan nama `rayhanbatman` pada mysql.
+
 c. pada tabel kedua merupakan tampilan tabel yang telah berhasil membuat database dengan nama `rayhanbatman`. 
 
 - **Menghapus Database**, dalam peghapusan database pada mysql,diawali dengan meggunakan query `DROP DATABASE[NAMA DATABASE]` maka mysql akan melakukan penghapusan Database setelah perintah query ini.
-<<<<<<< HEAD
+
 ### CONTOH GAMBAR:
 ![gambar](menghapusdb.png)
 =======
 CONTOH GAMBAR:
 ![gambar](GAMBARBASDAT/menghapusdb.png)
->>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
+
 a.Pada tabel pertama merupakan tampilan pertama tabel berisikan nama nama database sebelum menghapus database dengan nama `rayhanbatman` 
+
 b.Pada bagian yang diblok pada gambar adalah sebuah perintah dengan *query* `drop database rayhanbatman;` sebagai perintah mysql untuk menghapus sebuah database dengan nama `rayhanbatman` pada mysql.
+
 c. pada tabel kedua merupakan tampilan tabel yang telah berhasil mengahapus database dengan nama `rayhanbatman`. 
 
 - **Menampilkan Database**,dalam peritah menampilan database pada mysql,diawali dengan query `SHOW DATABASES;` maka perintah mysql akan menampilkan Databases setelah perintah query.
-<<<<<<< HEAD
+
 ### CONTOH GAMBAR:
 ![GAMBAR](membuatdb.png)
 pada gambar di atas menampilkan tabel yang telah ditampilkan setelah melakukan perintah mysql dengan menggunakan *query*  `SHOW DATABASES;` maka akan ditampilkan beberapa nama-nama database pada mysql.
@@ -85,8 +88,67 @@ pada gambar di atas menampilkan tabel yang telah ditampilkan setelah melakukan p
 - **Menggunakan Database**,dalam perintah menggunakan database pada mysql,maka perintahnya menggunakan query `USE[NAMA_DATABASE]`
 CONTOH GAMBAR:
 ![GAMBAR](GAMBARBASDAT/use.png)
->>>>>>> 1460ac171d437d06757ab7998eb78b7cac7da75b
 pada gambar di atas tertampilkan bahwa *query* `MariaDB [("none")]`adalah database yang sedang digunakan,kemudian setelah melakukan perintah dengan *query* `use XI_RPL_1` maka pada tampilan yang diblok dengan *query*`MariaDB [XI_RPL_1]>` menandakan bawa user telah berada pada database `XI_RPL_1`
+# Tipe Data 
+## Angka 
+- `int:` Adalah sebuah tipe data yang berfungsi untuk menyimpian data bilangan bula.
+- `Decimal:` adalah tipe data yang digunakan untuk menyimpan data bilngan desimal.
+- `Float dan Double:` adalah tipe data yang digunakan untuk menyimpan data dengan presisi float.Double memiliki presisi lebih tinggi dibandingkan dengan Float.
+- `Tinyint`,`Smallint`,`Mediumint`,dan `Bigint`: Beberapa tipe data tersebut memiliki fungsi yang sama dengan `int` yaitu menyimpan bilangan bulat,tetapi bedanya tipe data tersebut dapat menyimpan data dengan ukuran yang berbeda-beda.Contoh:
+```MySQL 
+CREATE TABLE contoh_table (
+	id INT,
+	harga DECIMAL(10,2),
+	jumlah_barang TINYINT
+);
+```
+
+Pada contoh ini, ini adalah query untuk membuat table yang berisikan kolom id dengan bertipe data `int`,kolom harga yang menggunakan tipe data `Decimal` dengan kategori 10 digit dan 2 angka dibelakang koma,dan kolom **jumlah barang** yang menggunakan tipe data `tinyint`.
+
+## Teks
+- `CHAR(N)`Menyimpan data string karakter tetap dengan panjang jumlah N yang sudah ditentukan . Contoh: `CHAR(10)` akan menyimpan string dengan panjang tepat 10 karakter.
+- `VARCHAR(N):` Menyimpan string karakter dengan panjang variabel maksimal N. Misalnya, `VARCHAR(255)` dapat menyimpan string hingga 255 karakter, tetapi sebenarnya hanya menyimpan panjang yang diperlukan plus beberapa overhead.
+- `TEXT:`Digunakan untuk menyimpan teks dengan panjang variabel, tanpa batasan panjang tertentu. Cocok untuk data teks yang panjangnya tidak terduga.
+- `ENUM:` Memungkinkan Anda mendefinisikan set nilai yang mungkin dan membatasi kolom hanya dapat mengambil salah satu dari nilai tersebut.
+- `SET:` Mirip dengan ENUM, namun dapat menyimpan satu atau lebih nilai dari himpunan yang telah ditentukan. Contoh :
+
+```mySQL
+CREATE TABLE contoh_tabel (
+    nama CHAR(50),
+    alamat VARCHAR(100),
+    catatan TEXT,
+    status ENUM('Aktif', 'Non-Aktif')
+);
+```
+ 
+## Tanggal 
+- `Date` adalah tipe data yang menyimpan nilai tanggal dengan format `yyyy-mm-dd`.
+- `Time` adalah tipe data yang menyimpan nilai waktu dengan format `hh:mm:ss.`
+- `Datetime` adalah tipe data yang menyimpan dan menggabungkan nilai tanggal dan juga waktu dengan format `yyyy-mm-dd hh:mm:ss`.
+- `Timestamp` tipe data ini sama seperti DATETIME,tapi kelebihan nya yaitu dapat diatur otomatis saat data dimasukkan atau diubah
+Contoh:
+```MySQl
+CREATE TABLE ContohTabel (
+    tanggal DATE,
+    waktu TIME,
+    datetimekolom DATETIME,
+    timestampkolom TIMESTAMP
+);
+```
+
+Dalam contoh ini,query tersebut adalah perintah membuat table yang memiliki kolom tanggal dengan tipe data `Date`,kolom waktu betipe data `Time`, kolom datetimekolom memiliki tipe data `Datetime` ,dan kolom timestampkolom menggunakan tipe data `Timestamp`.
+
+## Boolean
+
+- `Boolean` adalah tipe data yang digunakan untuk menyimpan nilai boolean,yang bertujuan mencari kondisi benar atau salah.Representasi nilai benar adalah angka `1` dan nilai salah adalah angka `0` . 
+Contoh:
+```MySQL
+CREATE TABLE contohTabel (
+    title VARCHAR(255),
+    completed BOOLEAN
+);
+```
+Dalam contoh diatas, adalah query perintah untuk membuat table dengan memiliki kolom title yang menggunakan tipe data `Varchar` dengan menyimpan nilai string **255** karakter dan kolom completed yang menggunakan tipe data `Boolean` yang dimana kolom tersebut menyimpan nilai TRUE dan FALSE,dan jika direpresentasikan dalam bentuk angka yaitu `1` dan `0`.
 
 # Tabel 
 

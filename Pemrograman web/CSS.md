@@ -1,3 +1,108 @@
+# Anatomi CSS
+```css
+selector{
+	/* property dan nilai */
+}
+/* contoh   */
+p{
+
+color:white;
+
+}
+```
+
+- `p` ini merupakan selektor,selektor adalah menentukan elemen HTML mana yang akan di-styling,selektor bisa berupa nama elemen HTML,kelas,ID, atau sejenisnya.
+- `color` adalah nama property atribut.
+- `white` merupakan nilai isi dari atribut.
+
+# Percobaan Property I CSS
+
+## Kode
+```html
+<!DOCTYPE html>
+<html>
+<head>
+ <title>posko</title>
+ <style>
+        p{
+             color: blue;
+        }
+ </style>
+</head>
+<body>
+    <p>Sijagaiki Naki Sikatutui</p>
+</body>
+</html>
+```
+
+## Hasil 
+![GAMBAR](asettantangan/properti1.png)
+
+## Analisis
+
+- `<!DOCTYPE html>` mendeklarasikan bahwa program menggunakan html5.
+ - `<html>` adalah sebagai pembuka dan penutup dokumen html
+ - `<head>` digunakan sebagai kepala dari program untuk informasi tentang dokumen 
+ - `<title>` berfungsi sebagai tampilan judul halaman di tab browser.
+ - `<style` didalam `<head>` digunakan untuk menuliskan program css yang ada pada halaman.
+ - Selektor `p` mendefinisikan gaya untuk semua elemen paragraf (`<p>`), dengan properti `color` diatur ke nilai `blue`, yang akan membuat teks paragraf berwarna biru.
+ - Tag `<body>` menampung konten utama yang akan ditampilkan di halaman web.
+- Di dalam `<body>` terdapat satu elemen paragraf (`<p>`).
+- Paragraf ini berisi teks "Sijagaiki Naki Sikatutui".
+## Kesimpulan
+Program di atas bertujuan menampilkan sebuah data bertuliskan "sijagaiki naki sikatutui" dengan font yang berwana biru.
+
+# Percobaan Property II CSS
+## Kode 
+### HTML
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <link rel="stylesheet" type="text/css" href="tantanganproperty2.css">
+</head>
+<body>
+    <button>Anjay</button>
+</body>
+</html>
+```
+### CSS
+```CSS
+button {
+width: 150px;
+height: 150px;
+background-color: blue;
+font-size: 50px;
+color:blueviolet;
+}
+```
+
+## HASIL 
+### BACKGROUND-COLOR
+#### BEFORE
+![GAMBAR](asettantangan/before.png)
+#### AFTER
+![GAMBAR](asettantangan/bgcolor.png)
+#### PENJELASAN
+- Ketika program dari tag button di beri atribut `backround-color: blue;` maka warna latar dari button akan berubah menjadi biru, terlihat perbedaannya sebelum di beri atribut `backround-color: blue;` warna dari latar button berubah yang dari default menjadi biru.
+
+### COLOR
+#### BEFORE
+![GAMBAR](asettantangan/before.png)
+
+#### AFTER
+![GAMBAR](asettantangan/color.png)
+#### PENJELASAN
+- Ketika program dari tag button di beri atribut `color:blueviolet;` maka warna tulisan dalam button akan berubah sesuai dengan yang di inginkan, terlihat perbedaannya sebelum di beri atribut `color: blueviolet;` warna dari latar button tetap berwarna putih alias default.
+
+### SIZE 
+#### BEFORE 
+![GAMBAR](asettantangan/before.png)
+#### AFTER
+![GAMBAR](asettantangan/size.png)
+#### PENJELASAN 
+- Terlihat di atas perbedaannya ketika button di beri atribut `font-size: 50pn;` ukuran tulisan dalam button tersebut langsung berubah menjadi besar karena atribut font-size tersebut.
 # CARA PEMANGGILAN CSS
 
 CSS adalah bahasa pemrograman yang digunakan untuk mengatur tampilan dan gaya dari elemen-elemen HTML pada halaman web. Dengan CSS, Anda dapat mengontrol warna, ukuran, jenis huruf, posisi, dan banyak lagi atribut-atribut lainnya dari elemen-elemen HTML.
@@ -387,6 +492,8 @@ CONTOH PROGRAM:
 
 HASIL PROGRAM:
 ![GAMBAR](GAMBAR/border.png)
+
+
 
 # TANTANGAN II
 
