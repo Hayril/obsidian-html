@@ -44,6 +44,30 @@
             }
           },
           {
+            "id": "b409f18bc02d2f6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis Data/Basis Data XII RPL 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "160e92e450169a3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis Data/Agregasi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2e3f71d0fb1388da",
             "type": "leaf",
             "state": {
@@ -78,9 +102,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "646ad7ab9127d257",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
+          },
+          {
+            "id": "4bb6daecf42105ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pemrograman berorientasi/DART.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -146,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN.md",
+                "file": "Pemrograman berorientasi/DART.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN.md",
+                "file": "Pemrograman berorientasi/DART.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN.md"
+                "file": "Pemrograman berorientasi/DART.md"
               }
             }
           }
@@ -207,8 +253,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cfced258c4c01803",
+  "active": "4bb6daecf42105ac",
   "lastOpenFiles": [
+    "Pemrograman berorientasi/DART.md",
+    "Pemrograman berorientasi",
+    "Basis Data/Basis Data XII RPL 1.md",
+    "Basis Data/Agregasi.md",
+    "Basis Data/SELECT LANJUTAN.md",
     "Basis Data/SELECT LANJUTAN.pdf",
     "Basis Data/GAMBARBASDAT/grupby7.png",
     "Basis Data/GAMBARBASDAT/grupby5.png",
@@ -219,7 +270,6 @@
     "Basis Data/GAMBARBASDAT/grupyby3.png",
     "Basis Data/GAMBARBASDAT/grupby1.png",
     "Pemrograman web/CSS.md",
-    "Basis Data/SELECT LANJUTAN.md",
     "Basis Data/GAMBARBASDAT/grupbywarna.png",
     "Pemrograman web/CSS.pdf",
     "Basis Data/MATERI BASIS DATA.md",
@@ -238,7 +288,6 @@
     "Pemrograman web/HTML.pdf",
     "EKSPLORASI CSS/CSS UNIT.md",
     "EKSPLORASI CSS/CSS UNIT.pdf",
-    "PRAKTIKUM BASIS DATA/IMG",
     "PRAKTIKUM BASIS DATA/PRAKTIKUM BASIS DATA/KELOMPOK 5 PRAKTIKUM 9.md",
     "Pemrograman web/PENGUMPULAN 1.md",
     "Pemrograman web/PEMBELAJARAN 1.md",
@@ -251,8 +300,6 @@
     "OBSIDIAN ASEK/Pemrograman web/PEMBELAJARAN 1.md",
     "OBSIDIAN ASEK/Basis Data/PEMBELAJARAN 5.md",
     "OBSIDIAN ASEK/Pemrograman web/PEMBELAJARAN 2.md",
-    "OBSIDIAN ASEK/Basis Data/PEMBELAJARAN 4.md",
-    "OBSIDIAN ASEK/Basis Data/PEMBELAJARAN 3.md",
-    "OBSIDIAN ASEK/Basis Data/PEMBELAJARAN 2.md"
+    "OBSIDIAN ASEK/Basis Data/PEMBELAJARAN 4.md"
   ]
 }
